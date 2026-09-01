@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,58 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Professional Profile
+**Cybersecurity & AI Security Researcher** with over 8 years of practical, hands-on experience spanning IT infrastructure, enterprise networks, data centers, and security operations. 
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+My work bridges low-level network protocol analysis with applied AI security research—focusing on securing artificial intelligence systems against adversarial threats, analyzing network attack surfaces, critically evaluating academic security literature, and engineering defensive technical artifacts.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Core Focus & Research Domains
+* **AI Security & Adversarial Robustness:**
+  * Threat modeling for AI/ML pipelines and inference architectures.
+  * Investigating vulnerabilities, data manipulation, evasion vectors, and exploitation surfaces in AI models.
+  * Defensive hardening and verification methodologies for AI systems.
+* **Network Security & Telemetry:**
+  * Deep packet inspection, traffic flow behavioral analysis, and protocol-level security (L2–L7).
+  * Network forensics, anomaly detection, and raw telemetry feature extraction.
+* **Applied Security Research & Paper Review:**
+  * Critical reading, gap analysis, and reproduction of state-of-the-art security and adversarial ML papers.
+  * Translating theoretical research papers into practical, hands-on detection and mitigation tools.
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+---
+
+## Professional Experience & Background
+* **Systems & Cybersecurity Practice (8+ Years):**
+  * Practical oversight and engineering across enterprise networks, data centers, and server environments.
+  * Deep operational experience in network routing, switching, infrastructure isolation, and systems administration.
+  * Security incident analysis, network traffic investigation, and proactive threat evaluation across production environments.
+  * Transitioned extensive operational infrastructure foundations into applied cybersecurity research and AI threat analysis.
+
+---
+
+## Academic Qualifications
+* **Bachelor of Science in Network Security**
+* **Associate Diploma in Cybersecurity** *(42 Credit Hours)*
+* **Technical Diploma in Computer Networks**
+
+---
+
+## Certifications & Credentials
+* **AI Security** – *Hack The Box*
+* **ECBBT** *(eLearnSecurity Certified Post-Exploitation Risk Assessor)*
+* **EGBT** *(eLearnSecurity Junior Penetration Tester)*
+* **CCNA** *(Cisco Certified Network Associate)*
+
+---
+
+## Technical Competencies & Toolset
+* **Networking & Protocol Analysis:**
+  * Deep understanding of TCP/IP stack, routing protocols, L7 payloads, and connection states.
+  * Tools: Wireshark, TShark, PyShark, TCPDump, NetFlow/IPFIX telemetry.
+* **Systems & Defensive Security:**
+  * Linux administration & internals, Active Directory security structures, enterprise network architecture.
+  * Threat surfaces analysis, log aggregation, and forensic reconstruction.
+* **Programming & Machine Learning Tools:**
+  * **Languages:** Python, Bash, Shell scripting.
+  * **AI/Data Stack:** PyTorch, Scikit-learn, Pandas, NumPy for feature engineering and model evaluation workflows.
