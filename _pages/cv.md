@@ -41,16 +41,16 @@ My work bridges low-level network protocol analysis with applied AI security res
 
 ## Academic Qualifications
 * **Bachelor of Science in Network Security**
-* **Associate Diploma in Cybersecurity** *(42 Credit Hours)*
+* **Associate Diploma in Cybersecurity** (42 Credit Hours)
 * **Technical Diploma in Computer Networks**
 
 ---
 
 ## Certifications & Credentials
-* **AI Security** – *Hack The Box*
-* **ECBBT** *(eLearnSecurity Certified Post-Exploitation Risk Assessor)*
-* **EGBT** *(eLearnSecurity Junior Penetration Tester)*
-* **CCNA** *(Cisco Certified Network Associate)*
+* **HTB Certified Offensive AI Expert** – Hack The Box *(In Progress)*
+* **eCPPTv3** – Certified Professional Penetration Tester – INE Security
+* **Cisco Networking Academy CCNA Curriculum Series** (ITN, SRWE, ENSA) – Cisco & Arab Open University
+* **eJPT** – Junior Penetration Tester – INE Security
 
 ---
 
