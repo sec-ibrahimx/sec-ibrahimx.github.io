@@ -1,22 +1,42 @@
-{% include base_path %}
+<style>
+  body {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+  }
 
-<!-- start custom head snippets -->
+  .masthead, .page__footer {
+    background-color: #161b22 !important;
+    border-bottom: 1px solid #30363d !important;
+  }
 
-<!-- Support for Academicons -->
-<link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>
+  .sidebar {
+    opacity: 0.95;
+  }
 
-<!-- Support for Font Awesome -->
- <link rel="preload" href="{{ base_path }}/assets/css/fontawesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ base_path }}/assets/css/fontawesome.css"></noscript>
+  a {
+    color: #58a6ff !important;
+  }
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
-<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
-<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="var(--global-bg-color)"/>
+  h1, h2, h3, h4, h5, h6 {
+    color: #f0f6fc !important;
+  }
 
-<!-- end custom head snippets -->
+  hr {
+    border-bottom: 1px solid #30363d !important;
+  }
+
+  .post-card, .custom-card {
+    background-color: #161b22 !important;
+    border: 1px solid #30363d !important;
+  }
+
+  .post-card:hover, .custom-card:hover {
+    border-color: #8b949e !important;
+  }
+
+  code, pre {
+    background-color: #161b22 !important;
+    border: 1px solid #30363d !important;
+    color: #79c0ff !important;
+  }
+</style>
