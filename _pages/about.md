@@ -8,22 +8,20 @@ redirect_from:
   - /about.html
 ---
 
-Exploring systems security, AI defenses, and practical research.
+Investigating adversarial robustness in AI systems and securing networked infrastructure through empirical, hands-on research.
 
 ---
 
 ## Focus & Interests
 
-* **Security Research & Paper Analysis:** Reading, dissecting, and critically evaluating academic research to identify practical solutions.
-* **AI Security:** Analyzing vulnerabilities in AI systems, threat surfaces, and defending models against targeted attacks.
-* **Systems & Network Security:** Hardening systems, network traffic analysis, observability, and defensive architectures.
-* **Applied Technical Projects:** Building and testing practical security implementations and hands-on artifacts.
+* **Adversarial Machine Learning:** Threat modeling for ML inference pipelines, data manipulation, evasion vectors, and model robustness verification.
+* **Network & Systems Security:** Deep packet inspection (DPI), flow telemetry extraction, and attack surface reduction across enterprise environments.
+* **Empirical Research & Prototyping:** Critical deconstruction of academic literature, identifying methodology gaps, and engineering reproducible proof-of-concept (PoC) tooling.
 
 ---
 
 ## What You’ll Find Here
 
-* **Research Digest:** Breakdowns and critical reviews of emerging cybersecurity and AI security papers.
-* **Technical Write-ups:** Detailed analyses of security projects, system architectures, and practical experiments.
-* **Field Notes & Advice:** Practical insights, guidance, and lessons learned for practitioners navigating the field.
-* **Technical Notes & Deep Dives:** Concise reference notes, breakdowns of complex concepts, and practical observations.
+* **Research Digest:** Critical reviews, deconstructions, and technical takeaways from recent papers in systems and AI security.
+* **Projects & PoCs:** Practical implementations, custom attack/defense tools, and empirical security experiments.
+* **Field Notes:** Focused technical observations, architectural notes, and deep dives into system internals and telemetry.
