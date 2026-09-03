@@ -68,9 +68,14 @@ My work bridges low-level network protocol analysis with applied AI security res
 
 ## Education
 
-* **Bachelor of Science in Network Security**
-* **Associate Degree in Cybersecurity**
-* **Associate Degree in Computer Networks**
+* **Bachelor of Science in Information Technology and Computing** (Networking & Security Track)  
+  Arab Open University — *Validated by Open University, UK* | Expected 2027
+
+* **Associate Diploma in Cybersecurity** (42 Credit Hours)  
+  Tuwaiq Academy
+
+* **Associate Degree in Computer Networks**  
+  College of Telecom and Information (CTI), Riyadh
 
 ---
 
