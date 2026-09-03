@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Ibrahim | Systems & AI Security Researcher"
+title                    : "Ibrahim Security"
 title_separator          : "-"
 name                     : &name "Ibrahim"
 description              : &description "Systems & AI Security Researcher - Academic Portfolio"
