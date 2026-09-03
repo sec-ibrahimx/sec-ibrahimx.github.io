@@ -1,0 +1,23 @@
+{% assign words = post.content | number_of_words %}
+{% assign read_time = words | divided_by: 200 %}
+{% if read_time == 0 %}{% assign read_time = 1 %}{% endif %}
+
+<div class="custom-card">
+  <h2 class="card-title">
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </h2>
+  
+  <p class="card-excerpt">
+    {{ post.excerpt | strip_html | truncate: 220 }}
+  </p>
+  
+  <div class="card-meta">
+    <span>Date: {{ post.date | date: "%B %d, %Y" }}</span>
+    <span class="divider">|</span>
+    <span>Estimated Reading Time: {{ read_time }} min</span>
+    {% if post.author or site.author.name %}
+    <span class="divider">|</span>
+    <span>Author: {{ post.author | default: site.author.name }}</span>
+    {% endif %}
+  </div>
+</div>
