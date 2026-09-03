@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Ibrahim | Cybersecurity & AI Security Researcher"
+title                    : "Ibrahim | Systems & AI Security Researcher"
 title_separator          : "-"
 name                     : &name "Ibrahim"
-description              : &description "Cybersecurity & AI Security Researcher - Academic Portfolio"
+description              : &description "Systems & AI Security Researcher - Academic Portfolio"
 url                      : "https://sec-ibrahimx.github.io"
 baseurl                  : ""
 repository               : "sec-ibrahimx/sec-ibrahimx.github.io"
@@ -20,63 +20,63 @@ repository               : "sec-ibrahimx/sec-ibrahimx.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 author:
   # Biographic information
-  avatar            : "profile.png"
-  name              : "Ibrahim"
-  pronouns          : 
-  bio               : "Cybersecurity & AI Security Researcher"
-  location          : "Riyadh, Saudi Arabia"
-  employer          : 
-  uri               : 
-  email             : 
+  avatar             : "profile.png"
+  name               : "Ibrahim"
+  pronouns           : 
+  bio                : "Systems & AI Security Researcher"
+  location           : 
+  employer           : 
+  uri                : 
+  email              : 
 
   # Academic websites
-  academia          : 
-  arxiv             : 
-  googlescholar     : 
-  inspire-hep       : 
-  impactstory       : 
-  orcid             : 
-  semantic          : 
-  ssrn              : 
-  pubmed            : 
-  researchgate      : 
-  scopus            : 
-  zotero            : 
+  academia           : 
+  arxiv              : 
+  googlescholar      : 
+  inspire-hep        : 
+  impactstory        : 
+  orcid              : 
+  semantic           : 
+  ssrn               : 
+  pubmed             : 
+  researchgate       : 
+  scopus             : 
+  zotero             : 
 
   # Repositories and software development
-  bitbucket         : 
-  codepen           : 
-  dribbble          : 
-  github            : "sec-ibrahimx"
-  kaggle            : 
-  stackoverflow     : 
+  bitbucket          : 
+  codepen            : 
+  dribbble           : 
+  github             : "sec-ibrahimx"
+  kaggle             : 
+  stackoverflow      : 
 
   # Social media
-  artstation        : 
-  bluesky           : 
-  facebook          : 
-  flickr            : 
-  foursquare        : 
-  goodreads         : 
-  google_plus       : 
-  keybase           : 
-  instagram         : 
-  lastfm            : 
-  linkedin          : 
-  mastodon          : 
-  medium            : 
-  pinterest         : 
-  soundcloud        : 
-  steam             : 
-  telegram          : 
-  tumblr            : 
-  twitter           : "ibrhimIT"
-  vine              : 
-  weibo             : 
-  wikipedia         : 
-  xing              : 
-  youtube           : 
-  zhihu             : 
+  artstation         : 
+  bluesky            : 
+  facebook           : 
+  flickr             : 
+  foursquare         : 
+  goodreads          : 
+  google_plus        : 
+  keybase            : 
+  instagram          : 
+  lastfm             : 
+  linkedin           : 
+  mastodon           : 
+  medium             : 
+  pinterest          : 
+  soundcloud         : 
+  steam              : 
+  telegram           : 
+  tumblr             : 
+  twitter            : "ibrhimIT"
+  vine               : 
+  weibo              : 
+  wikipedia          : 
+  xing               : 
+  youtube            : 
+  zhihu              : 
 
 # Publication Category
 publication_category:
@@ -97,11 +97,11 @@ talkmap_link             : false
 comments:
   provider               : false
   disqus:
-    shortname            :
+    shortname            : 
   discourse:
     server               : 
   facebook:
-    appid                :
+    appid                : 
     num_posts            : 
     colorscheme          : 
 staticman:
@@ -125,18 +125,18 @@ atom_feed:
   path                   : 
 
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+google_site_verification : 
+bing_site_verification   : 
+alexa_site_verification  : 
+yandex_site_verification : 
 
 # Social Sharing
 twitter:
   username               : "ibrhimIT"
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
+  username               : 
+  app_id                 : 
+  publisher              : 
 og_image                 :  
 og_description           :  
 social:
@@ -148,7 +148,7 @@ social:
 analytics:
   provider               : "false"
   google:
-    tracking_id          :
+    tracking_id          : 
 
 # Reading Files
 include:
