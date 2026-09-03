@@ -10,57 +10,73 @@ redirect_from:
 {% include base_path %}
 
 ## Professional Profile
-**Cybersecurity & AI Security Researcher** with over 8 years of practical, hands-on experience spanning IT infrastructure, enterprise networks, data centers, and security operations. 
+
+Researcher focusing on Systems & AI Security, backed by hands-on operational experience across enterprise networking, infrastructure, and security fundamentals.
 
 My work bridges low-level network protocol analysis with applied AI security research—focusing on securing artificial intelligence systems against adversarial threats, analyzing network attack surfaces, critically evaluating academic security literature, and engineering defensive technical artifacts.
 
 ---
 
 ## Core Focus & Research Domains
-* **AI Security & Adversarial Robustness:**
-  * Threat modeling for AI/ML pipelines and inference architectures.
-  * Investigating vulnerabilities, data manipulation, evasion vectors, and exploitation surfaces in AI models.
-  * Defensive hardening and verification methodologies for AI systems.
-* **Network Security & Telemetry:**
-  * Deep packet inspection, traffic flow behavioral analysis, and protocol-level security (L2–L7).
-  * Network forensics, anomaly detection, and raw telemetry feature extraction.
-* **Applied Security Research & Paper Review:**
-  * Critical reading, gap analysis, and reproduction of state-of-the-art security and adversarial ML papers.
-  * Translating theoretical research papers into practical, hands-on detection and mitigation tools.
+
+### AI Security & Adversarial Robustness
+* Threat modeling for ML pipelines and inference architectures.
+* Vulnerability analysis, data manipulation, evasion vectors, and model exploitation surfaces.
+* Empirical robustness evaluation and defensive hardening for AI systems.
+
+### Network Security & Telemetry
+* Deep packet inspection (DPI), flow behavioral analysis, and protocol-level security (L2–L7).
+* Network forensics, behavioral anomaly detection, and raw telemetry feature extraction.
+
+### Applied Security Research & Prototyping
+* Critical evaluation, gap analysis, and empirical testing of academic security literature.
+* Engineering practical proof-of-concept (PoC) tooling from theoretical adversarial ML research.
 
 ---
 
 ## Professional Experience & Background
-* **Systems & Cybersecurity Practice (8+ Years):**
-  * Practical oversight and engineering across enterprise networks, data centers, and server environments.
-  * Deep operational experience in network routing, switching, infrastructure isolation, and systems administration.
-  * Security incident analysis, network traffic investigation, and proactive threat evaluation across production environments.
-  * Transitioned extensive operational infrastructure foundations into applied cybersecurity research and AI threat analysis.
 
----
-
-## Academic Qualifications
-* **Bachelor of Science in Network Security**
-* **Associate Diploma in Cybersecurity** (42 Credit Hours)
-* **Technical Diploma in Computer Networks**
-
----
-
-## Certifications & Credentials
-* **HTB Certified Offensive AI Expert** – Hack The Box *(In Progress)*
-* **eCPPTv3** – Certified Professional Penetration Tester – INE Security
-* **Cisco Networking Academy CCNA Curriculum Series** (ITN, SRWE, ENSA) – Cisco & Arab Open University
-* **eJPT** – Junior Penetration Tester – INE Security
+### Systems & Network Infrastructure Engineering (8+ Years)
+* Practical oversight and engineering across enterprise networks, data centers, and server environments.
+* Deep operational experience in network routing, switching, infrastructure isolation, and systems administration.
+* Network traffic investigation, defensive perimeter control, and attack surface reduction across production environments.
+* Transitioned extensive operational infrastructure foundations into applied cybersecurity research and AI threat analysis.
 
 ---
 
 ## Technical Competencies & Toolset
-* **Networking & Protocol Analysis:**
-  * Deep understanding of TCP/IP stack, routing protocols, L7 payloads, and connection states.
-  * Tools: Wireshark, TShark, PyShark, TCPDump, NetFlow/IPFIX telemetry.
-* **Systems & Defensive Security:**
-  * Linux administration & internals, Active Directory security structures, enterprise network architecture.
-  * Threat surfaces analysis, log aggregation, and forensic reconstruction.
-* **Programming & Machine Learning Tools:**
-  * **Languages:** Python, Bash, Shell scripting.
-  * **AI/Data Stack:** PyTorch, Scikit-learn, Pandas, NumPy for feature engineering and model evaluation workflows.
+
+### Offensive Security & Penetration Testing
+* **Network & Host Assessment:** Nmap, Metasploit Framework, Netcat, multi-hop pivoting & traffic forwarding (Chisel, SSH tunneling), privilege escalation vectors.
+* **Active Directory Exploitation:** BloodHound, Impacket suite, Kerbrute, Mimikatz, Kerberoasting, AS-REP Roasting, Pass-the-Hash/Ticket, ACL abuse.
+* **Web Application Security:** Burp Suite, directory/fuzzing tools (Gobuster, ffuf), SQL injection, command injection, authentication bypass mechanisms.
+* **Exploit Analysis:** Buffer overflow mechanics, shellcode execution flows, and adapting public exploit PoCs for target environments.
+
+### Network Engineering & Deep Telemetry
+* **Infrastructure & Routing:** Cisco IOS, enterprise switching, VLAN segmentation, ACL enforcement, NAT, TCP/IP stack internals (L2–L7).
+* **Protocol Analysis & Forensics:** Deep Packet Inspection (DPI), Wireshark, TShark, TCPDump, flow telemetry extraction (NetFlow/IPFIX).
+
+### AI Security & Applied Frameworks
+* **Adversarial Evaluation:** OWASP Top 10 for LLMs, prompt injection, evasion attacks, data poisoning, and model inference verification.
+* **Applied Tooling:** PyTorch, Scikit-learn, Pandas, NumPy (focused on telemetry feature extraction and defensive evaluation workflows).
+
+### Systems, Scripting & Prototyping
+* **Operating Environments:** Linux administration (Debian, Ubuntu, Kali), Windows Enterprise / Windows Server, virtualization platforms (VMware, VirtualBox).
+* **Scripting & Automation:** Python (code comprehension, PoC adaptation, functional automation, and AI-accelerated development workflows), Bash / POSIX Shell.
+
+---
+
+## Education
+
+* **Bachelor of Science in Network Security**
+* **Associate Degree in Cybersecurity**
+* **Associate Degree in Computer Networks**
+
+---
+
+## Certifications
+
+* **eCPPT** – Certified Professional Penetration Tester
+* **eJPT** – Junior Penetration Tester
+* **CCNA** – Cisco Certified Network Associate
+* **Certified AI Security** – Hack The Box
