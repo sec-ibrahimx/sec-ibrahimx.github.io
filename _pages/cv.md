@@ -81,7 +81,7 @@ My work bridges low-level network protocol analysis with applied AI security res
 
 ## Certifications
 
-* **eCPPT** – Certified Professional Penetration Tester
-* **eJPT** – Junior Penetration Tester
-* **CCNA** – Cisco Certified Network Associate
-* **Certified AI Security** – Hack The Box
+* **HTB Certified Offensive AI Expert** – Hack The Box *(In Progress)*
+* **eCPPTv3** – Certified Professional Penetration Tester – INE Security
+* **Cisco Networking Academy CCNA Curriculum Series** (ITN, SRWE, ENSA) – Cisco & Arab Open University
+* **eJPT** – Junior Penetration Tester – INE Security
