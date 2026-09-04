@@ -35,7 +35,7 @@ author_profile: false
         <i data-lucide="shield" class="w-3.5 h-3.5"></i> Security Research
       </span>
       <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-300 text-xs px-3 py-1 rounded-lg">
-        <i data-lucide="cpu" class="w-3.5 h-3.5"></i> AI Security
+        <i data-lucide="brain" class="w-3.5 h-3.5"></i> AI Security
       </span>
       <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-300 text-xs px-3 py-1 rounded-lg">
         <i data-lucide="network" class="w-3.5 h-3.5"></i> Systems Security
