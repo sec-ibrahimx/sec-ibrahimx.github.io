@@ -4,91 +4,143 @@ title: ""
 author_profile: false
 ---
 
-<!-- Profile Card -->
-<div class="bg-[#131d2e] border border-[#1e293b] rounded-2xl p-5 mb-6 shadow-sm text-slate-200">
-    <div class="flex items-center justify-between mb-3">
-        <div class="flex items-center space-x-3">
-            <div class="w-12 h-12 rounded-full bg-slate-700 flex items-center justify-center text-slate-200 font-bold text-lg">
-                I
-            </div>
-            <div>
-                <h1 class="font-bold text-slate-100 text-base m-0">Ibrahim</h1>
-                <p class="text-xs text-slate-400 m-0">Systems & AI Security Researcher</p>
-            </div>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<div class="max-w-xl mx-auto py-2 text-slate-200 font-sans antialiased">
+
+  <div class="bg-[#111827]/60 border border-slate-800 rounded-2xl p-5 mb-8">
+    <div class="flex items-center justify-between mb-4">
+      <div class="flex items-center gap-3.5">
+        <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 border border-slate-700/50">
+          <i data-lucide="user" class="w-6 h-6"></i>
         </div>
-        <a href="https://github.com/sec-ibrahimx" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium px-3 py-1.5 rounded-lg border border-slate-700 transition no-underline">
-            + Follow
-        </a>
+        <div>
+          <h1 class="font-bold text-slate-100 text-lg leading-tight m-0">Ibrahim</h1>
+          <p class="text-xs text-slate-400 m-0 mt-0.5">Systems & AI Security Researcher</p>
+        </div>
+      </div>
+      <a href="https://github.com/sec-ibrahimx" target="_blank" class="inline-flex items-center gap-1.5 bg-transparent hover:bg-slate-800/60 text-slate-300 text-xs font-medium px-3.5 py-1.5 rounded-lg border border-slate-700/70 transition no-underline">
+        <i data-lucide="user-plus" class="w-3.5 h-3.5"></i>
+        <span>Follow</span>
+      </a>
     </div>
-    <p class="text-xs text-slate-300 leading-relaxed mb-4">
-        Investigating adversarial robustness in AI systems and securing networked infrastructure through empirical, hands-on research.
+
+    <p class="text-[13px] text-slate-300 leading-relaxed mb-5">
+      Exploring systems security, AI defenses, and practical research.
     </p>
+
     <div class="flex flex-wrap gap-2">
-        <span class="bg-[#0b0f17] border border-slate-800 text-slate-300 text-[11px] px-2.5 py-1 rounded-md">🛡️ Security Research</span>
-        <span class="bg-[#0b0f17] border border-slate-800 text-slate-300 text-[11px] px-2.5 py-1 rounded-md">🤖 AI Security</span>
-        <span class="bg-[#0b0f17] border border-slate-800 text-slate-300 text-[11px] px-2.5 py-1 rounded-md">⚙️ Systems Security</span>
+      <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-400 text-xs px-3 py-1 rounded-lg">
+        <i data-lucide="shield" class="w-3.5 h-3.5"></i> Security Research
+      </span>
+      <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-400 text-xs px-3 py-1 rounded-lg">
+        <i data-lucide="cpu" class="w-3.5 h-3.5"></i> AI Security
+      </span>
+      <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-400 text-xs px-3 py-1 rounded-lg">
+        <i data-lucide="network" class="w-3.5 h-3.5"></i> Systems Security
+      </span>
     </div>
+  </div>
+
+  <div class="mb-8">
+    <div class="flex items-center gap-2 mb-3.5 text-slate-200">
+      <i data-lucide="crosshair" class="w-4 h-4 text-slate-400"></i>
+      <h2 class="text-sm font-semibold m-0 p-0 tracking-normal text-slate-200">Focus & Interests</h2>
+    </div>
+
+    <div class="space-y-3">
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold text-slate-200 m-0 mb-1 leading-tight">Security Research & Paper Analysis</h3>
+            <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Reading, dissecting, and critically evaluating academic research to identify practical solutions.</p>
+          </div>
+        </div>
+        <span class="text-[11px] bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">Research</span>
+      </div>
+
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="brain" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold text-slate-200 m-0 mb-1 leading-tight">AI Security</h3>
+            <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Analyzing vulnerabilities in AI systems, threat surfaces, and defending models against targeted attacks.</p>
+          </div>
+        </div>
+        <span class="text-[11px] bg-purple-950/40 text-purple-300 border border-purple-800/40 px-2 py-0.5 rounded shrink-0">AI</span>
+      </div>
+
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="network" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold text-slate-200 m-0 mb-1 leading-tight">Systems & Network Security</h3>
+            <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Hardening systems, network traffic analysis, observability, and defensive architectures.</p>
+          </div>
+        </div>
+        <span class="text-[11px] bg-blue-950/40 text-blue-300 border border-blue-800/40 px-2 py-0.5 rounded shrink-0">Systems</span>
+      </div>
+
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="code" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold text-slate-200 m-0 mb-1 leading-tight">Applied Technical Projects</h3>
+            <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Building and testing practical security implementations and hands-on artifacts.</p>
+          </div>
+        </div>
+        <span class="text-[11px] bg-emerald-950/40 text-emerald-400 border border-emerald-800/40 px-2 py-0.5 rounded shrink-0">Projects</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-8">
+    <div class="flex items-center gap-2 mb-3.5 text-slate-200">
+      <i data-lucide="book-open" class="w-4 h-4 text-slate-400"></i>
+      <h2 class="text-sm font-semibold m-0 p-0 tracking-normal text-slate-200">What You'll Find Here</h2>
+    </div>
+
+    <div class="space-y-3">
+      <a href="/_posts/" class="bg-[#111827]/60 border border-slate-800 hover:border-slate-700 transition rounded-xl p-4 flex items-center justify-between no-underline block group">
+        <div class="flex items-center gap-3.5">
+          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold text-slate-200 m-0 mb-0.5">Research Digest</h3>
+            <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Breakdowns and critical reviews of emerging cybersecurity and AI security papers.</p>
+          </div>
+        </div>
+        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-500 group-hover:text-slate-300 transition shrink-0 ml-2"></i>
+      </a>
+
+      <a href="/portfolio/" class="bg-[#111827]/60 border border-slate-800 hover:border-slate-700 transition rounded-xl p-4 flex items-center justify-between no-underline block group">
+        <div class="flex items-center gap-3.5">
+          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0">
+            <i data-lucide="file-text" class="w-4 h-4"></i>
+          </div>
+          <div>
+            <h3 class="text-xs font-semibold text-slate-200 m-0 mb-0.5">Technical Write-ups</h3>
+            <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Detailed analyses of security concepts, tools, and real-world scenarios.</p>
+          </div>
+        </div>
+        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-500 group-hover:text-slate-300 transition shrink-0 ml-2"></i>
+      </a>
+    </div>
+  </div>
+
 </div>
 
-<!-- Focus & Interests Section -->
-<div class="mb-6">
-    <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3 border-0 p-0">
-        🎯 Focus & Interests
-    </h2>
-    <div class="space-y-2.5">
-        
-        <!-- Card 1 -->
-        <div class="bg-[#131d2e] border border-[#1e293b] rounded-xl p-3.5 flex items-start justify-between">
-            <div>
-                <h3 class="text-xs font-semibold text-slate-200 m-0 mb-1">Adversarial Machine Learning</h3>
-                <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Threat modeling for ML inference pipelines, data manipulation, evasion vectors, and model robustness verification.</p>
-            </div>
-            <span class="text-[10px] bg-purple-950/60 text-purple-300 border border-purple-800/50 px-2 py-0.5 rounded ml-2 shrink-0">AI</span>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="bg-[#131d2e] border border-[#1e293b] rounded-xl p-3.5 flex items-start justify-between">
-            <div>
-                <h3 class="text-xs font-semibold text-slate-200 m-0 mb-1">Network & Systems Security</h3>
-                <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Deep packet inspection (DPI), flow telemetry extraction, and attack surface reduction across enterprise environments.</p>
-            </div>
-            <span class="text-[10px] bg-blue-950/60 text-blue-300 border border-blue-800/50 px-2 py-0.5 rounded ml-2 shrink-0">Systems</span>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="bg-[#131d2e] border border-[#1e293b] rounded-xl p-3.5 flex items-start justify-between">
-            <div>
-                <h3 class="text-xs font-semibold text-slate-200 m-0 mb-1">Empirical Research & Prototyping</h3>
-                <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Critical deconstruction of academic literature, identifying methodology gaps, and engineering reproducible proof-of-concept (PoC) tooling.</p>
-            </div>
-            <span class="text-[10px] bg-slate-800/80 text-slate-300 px-2 py-0.5 rounded ml-2 shrink-0">Research</span>
-        </div>
-
-    </div>
-</div>
-
-<!-- What You'll Find Here Section -->
-<div class="mb-6">
-    <h2 class="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3 border-0 p-0">
-        📖 What You'll Find Here
-    </h2>
-    <div class="space-y-2.5">
-        
-        <a href="/_posts/" class="bg-[#131d2e] border border-[#1e293b] hover:border-slate-700 transition rounded-xl p-3.5 flex items-center justify-between no-underline block">
-            <div>
-                <h3 class="text-xs font-semibold text-slate-200 m-0 mb-0.5">Research Digest</h3>
-                <p class="text-[11px] text-slate-400 m-0">Critical reviews, deconstructions, and technical takeaways from recent papers in systems and AI security.</p>
-            </div>
-            <span class="text-slate-500 text-sm pl-2">→</span>
-        </a>
-
-        <a href="/portfolio/" class="bg-[#131d2e] border border-[#1e293b] hover:border-slate-700 transition rounded-xl p-3.5 flex items-center justify-between no-underline block">
-            <div>
-                <h3 class="text-xs font-semibold text-slate-200 m-0 mb-0.5">Projects & PoCs</h3>
-                <p class="text-[11px] text-slate-400 m-0">Practical implementations, custom attack/defense tools, and empirical security experiments.</p>
-            </div>
-            <span class="text-slate-500 text-sm pl-2">→</span>
-        </a>
-
-    </div>
-</div>
+<script>
+  lucide.createIcons();
+</script>
