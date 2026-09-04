@@ -5,10 +5,28 @@
         {{ post.title }}
       </a>
     </h2>
-    {% if post.tag %}
-    <span class="text-xs bg-purple-950/40 text-purple-300 border border-purple-800/40 px-2 py-0.5 rounded shrink-0">
-      {{ post.tag }}
-    </span>
+
+    {% assign topic = post.topic | downcase %}
+    {% if topic == 'ai' or topic == 'ai security' %}
+      <span class="text-xs inline-flex items-center gap-1 bg-purple-950/40 text-purple-300 border border-purple-800/40 px-2 py-0.5 rounded shrink-0">
+        <i data-lucide="brain" class="w-3 h-3"></i> AI
+      </span>
+    {% elsif topic == 'systems' or topic == 'systems security' %}
+      <span class="text-xs inline-flex items-center gap-1 bg-blue-950/40 text-blue-300 border border-blue-800/40 px-2 py-0.5 rounded shrink-0">
+        <i data-lucide="cpu" class="w-3 h-3"></i> Systems
+      </span>
+    {% elsif topic == 'network' or topic == 'network security' %}
+      <span class="text-xs inline-flex items-center gap-1 bg-cyan-950/40 text-cyan-300 border border-cyan-800/40 px-2 py-0.5 rounded shrink-0">
+        <i data-lucide="network" class="w-3 h-3"></i> Network
+      </span>
+    {% elsif topic == 'projects' %}
+      <span class="text-xs inline-flex items-center gap-1 bg-emerald-950/40 text-emerald-400 border border-emerald-800/40 px-2 py-0.5 rounded shrink-0">
+        <i data-lucide="code" class="w-3 h-3"></i> Projects
+      </span>
+    {% elsif post.topic %}
+      <span class="text-xs inline-flex items-center gap-1 bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">
+        <i data-lucide="file-text" class="w-3 h-3"></i> {{ post.topic }}
+      </span>
     {% endif %}
   </div>
 
@@ -25,11 +43,15 @@
     </span>
     {% endif %}
 
-    {% if post.read_time %}
-    <span class="inline-flex items-center gap-1.5">
-      <i data-lucide="clock" class="w-3.5 h-3.5"></i> {{ post.read_time }}
-    </span>
+    {% assign words = post.content | number_of_words %}
+    {% if words < 360 %}
+      {% assign minutes = 1 %}
+    {% else %}
+      {% assign minutes = words | divided_by: 180 %}
     {% endif %}
+    <span class="inline-flex items-center gap-1.5">
+      <i data-lucide="clock" class="w-3.5 h-3.5"></i> {{ minutes }} min read
+    </span>
 
     {% if post.author %}
     <span class="inline-flex items-center gap-1.5">
