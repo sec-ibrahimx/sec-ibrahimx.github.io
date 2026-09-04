@@ -4,7 +4,10 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: transparent !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  border: none !important;
   height: fit-content;
   top: 0;
   width: 100%;
@@ -16,12 +19,7 @@
   z-index: 20;
 
   &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 1px;
-    background: var(--global-border-color);
-    width: 100%;
+    display: none !important;
   }
 
   &__inner-wrap {
@@ -29,6 +27,10 @@
     @include clearfix;
     padding: 0.5em 1em;
     font-family: $sans-serif-narrow;
+    background: transparent !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border: none !important;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -36,6 +38,7 @@
 
     nav {
       z-index: 10;
+      background: transparent !important;
     }
 
     a {
@@ -45,17 +48,19 @@
 }
 
 .masthead__menu {
+  background: transparent !important;
 
   ul {
     margin: 0;
     padding: 0;
     clear: both;
     list-style-type: none;
+    background: transparent !important;
   }
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
+  background-color: transparent !important;
   display: block;
   list-style-type: none;
   white-space: nowrap;
@@ -70,12 +75,11 @@
   color: var(--global-text-color);
   font-weight: 700;
   border-bottom: 2px solid var(--global-text-color);
-  pointer-events: none; /* Move this here */
-  cursor: default; /* Move this here too */
+  pointer-events: none;
+  cursor: default;
 }
 
 .masthead__menu-item.selected a:hover {
   color: var(--global-text-color);
   border-bottom: 2px solid var(--global-text-color);
-  /* No need to repeat pointer-events and cursor here */
 }
