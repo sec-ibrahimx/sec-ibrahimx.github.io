@@ -1,64 +1,30 @@
 ---
-layout: archive
-title: "Research & Paper Reviews"
+layout: default
 permalink: /research/
-author_profile: true
+title: ""
+author_profile: false
 ---
 
-{% include base_path %}
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
 
-Critical evaluations, methodology breakdowns, and technical deconstructions of academic literature across Systems and AI Security.
+<div class="w-full max-w-2xl mx-auto px-4 sm:px-6 py-4 text-slate-200 font-sans antialiased">
 
----
+  <div class="mb-8">
+    <h1 class="text-xl font-bold text-slate-100 tracking-normal mb-2">Research & Paper Reviews</h1>
+    <p class="text-sm text-slate-400 leading-relaxed">
+      Critical evaluations, methodology breakdowns, and technical deconstructions of academic literature across Systems and AI Security.
+    </p>
+  </div>
 
-<style>
-.post-card {
-  border: 1px solid rgba(128, 128, 128, 0.3);
-  border-radius: 8px;
-  padding: 20px 24px;
-  margin-bottom: 20px;
-  background: transparent;
-  transition: border-color 0.2s ease;
-}
+  <div class="space-y-4">
+    {% for post in site.categories.research %}
+      {% include card-post.html %}
+    {% endfor %}
+  </div>
 
-.post-card:hover {
-  border-color: rgba(128, 128, 128, 0.6);
-}
+</div>
 
-.post-card-title {
-  margin: 0 0 10px 0 !important;
-  font-size: 1.35rem !important;
-  border-bottom: none !important;
-}
-
-.post-card-title a {
-  text-decoration: none !important;
-}
-
-.post-card-title a:hover {
-  text-decoration: underline !important;
-}
-
-.post-card-excerpt {
-  margin: 0 0 14px 0 !important;
-  line-height: 1.6 !important;
-  opacity: 0.85;
-}
-
-.post-card-footer {
-  font-size: 0.85rem !important;
-  opacity: 0.65;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-}
-
-.post-card-footer .sep {
-  opacity: 0.4;
-}
-</style>
-
-{% for post in site.categories.research %}
-  {% include card-post.html %}
-{% endfor %}
+<script>
+  lucide.createIcons();
+</script>
