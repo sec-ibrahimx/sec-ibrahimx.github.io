@@ -7,12 +7,12 @@ author_profile: false
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
 
-<div class="max-w-xl mx-auto py-2 text-slate-200 font-sans antialiased">
+<div class="w-full max-w-2xl mx-auto px-4 sm:px-6 py-4 text-slate-200 font-sans antialiased">
 
   <div class="bg-[#111827]/60 border border-slate-800 rounded-2xl p-5 mb-8">
     <div class="flex items-center justify-between mb-4">
       <div class="flex items-center gap-3.5">
-        <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 border border-slate-700/50">
+        <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 border border-slate-700/50 shrink-0">
           <i data-lucide="user" class="w-6 h-6"></i>
         </div>
         <div>
@@ -111,7 +111,7 @@ author_profile: false
     </div>
 
     <div class="space-y-3">
-      <a href="/_posts/" class="bg-[#111827]/60 border border-slate-800 hover:border-slate-700 transition rounded-xl p-4 flex items-center justify-between no-underline block group">
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-center justify-between">
         <div class="flex items-center gap-3.5">
           <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0">
             <i data-lucide="file-text" class="w-4 h-4"></i>
@@ -121,10 +121,9 @@ author_profile: false
             <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Breakdowns and critical reviews of emerging cybersecurity and AI security papers.</p>
           </div>
         </div>
-        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-500 group-hover:text-slate-300 transition shrink-0 ml-2"></i>
-      </a>
+      </div>
 
-      <a href="/portfolio/" class="bg-[#111827]/60 border border-slate-800 hover:border-slate-700 transition rounded-xl p-4 flex items-center justify-between no-underline block group">
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-center justify-between">
         <div class="flex items-center gap-3.5">
           <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0">
             <i data-lucide="file-text" class="w-4 h-4"></i>
@@ -134,8 +133,7 @@ author_profile: false
             <p class="text-[11px] text-slate-400 m-0 leading-relaxed">Detailed analyses of security concepts, tools, and real-world scenarios.</p>
           </div>
         </div>
-        <i data-lucide="chevron-right" class="w-4 h-4 text-slate-500 group-hover:text-slate-300 transition shrink-0 ml-2"></i>
-      </a>
+      </div>
     </div>
   </div>
 
