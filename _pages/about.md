@@ -27,7 +27,7 @@ author_profile: false
     </div>
 
     <p class="text-sm text-slate-300 leading-relaxed mb-5">
-      Exploring systems security, AI defenses, and practical research.
+      Securing systems and AI from the adversary's vantage point through empirical offensive research
     </p>
 
     <div class="flex flex-wrap gap-2">
