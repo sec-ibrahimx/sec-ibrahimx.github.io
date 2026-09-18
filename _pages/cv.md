@@ -67,40 +67,76 @@ author_profile: false
     </div>
 
     <div class="space-y-3">
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <h3 class="text-sm font-bold text-slate-100 mb-2">Offensive Security & Practical Assessment</h3>
-        <ul class="text-xs sm:text-sm text-slate-400 space-y-1.5 leading-relaxed">
-          <li><span class="text-slate-300 font-medium">Network & Host:</span> Nmap, Metasploit, traffic pivoting/forwarding (Chisel, SSH tunneling), privilege escalation vectors.</li>
-          <li><span class="text-slate-300 font-medium">Active Directory:</span> BloodHound, Impacket suite, Kerbrute, Mimikatz, Kerberoasting, AS-REP Roasting, Pass-the-Hash/Ticket.</li>
-          <li><span class="text-slate-300 font-medium">Web Application Testing:</span> Assessing injection flaws (SQLi, Command Injection), auth & session handling, file uploads, traversal (LFI/RFI), and misconfigurations.</li>
-          <li><span class="text-slate-300 font-medium">PoC Execution:</span> Reviewing, customizing, and executing public proof-of-concept exploits safely within isolated scopes.</li>
-          <li><span class="text-slate-300 font-medium">Security Reporting:</span> Structured penetration testing documentation, translating exploit chains into risk impact and remediation.</li>
-        </ul>
+      <!-- Offensive Security -->
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="shield-alert" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-2 leading-snug">Offensive Security & Practical Assessment</h3>
+            <ul class="text-sm text-slate-400 space-y-1.5 leading-relaxed m-0 p-0 list-none">
+              <li><strong class="text-slate-300 font-medium">Network & Host:</strong> Nmap, Metasploit, traffic pivoting/forwarding (Chisel, SSH tunneling), privilege escalation vectors.</li>
+              <li><strong class="text-slate-300 font-medium">Active Directory:</strong> BloodHound, Impacket suite, Kerbrute, Mimikatz, Kerberoasting, AS-REP Roasting, Pass-the-Hash/Ticket.</li>
+              <li><strong class="text-slate-300 font-medium">Web Application Testing:</strong> Assessing injection flaws (SQLi, Command Injection), auth & session handling, file uploads, traversal (LFI/RFI), and misconfigurations.</li>
+              <li><strong class="text-slate-300 font-medium">PoC Execution:</strong> Reviewing, customizing, and executing public proof-of-concept exploits safely within isolated scopes.</li>
+              <li><strong class="text-slate-300 font-medium">Security Reporting:</strong> Structured penetration testing documentation, translating exploit chains into risk impact and remediation.</li>
+            </ul>
+          </div>
+        </div>
+        <span class="text-xs bg-rose-950/40 text-rose-300 border border-rose-800/40 px-2 py-0.5 rounded shrink-0">Offensive</span>
       </div>
 
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <h3 class="text-sm font-bold text-slate-100 mb-2">Network Engineering & Telemetry</h3>
-        <ul class="text-xs sm:text-sm text-slate-400 space-y-1.5 leading-relaxed">
-          <li><span class="text-slate-300 font-medium">Infrastructure & Routing:</span> Cisco IOS, enterprise switching, VLAN segmentation, ACL enforcement, NAT, TCP/IP stack internals (L2–L7).</li>
-          <li><span class="text-slate-300 font-medium">Protocol Analysis:</span> Deep Packet Inspection (DPI), Wireshark, TShark, TCPDump, flow telemetry extraction (NetFlow/IPFIX).</li>
-        </ul>
+      <!-- Network Engineering -->
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="network" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-2 leading-snug">Network Engineering & Telemetry</h3>
+            <ul class="text-sm text-slate-400 space-y-1.5 leading-relaxed m-0 p-0 list-none">
+              <li><strong class="text-slate-300 font-medium">Infrastructure & Routing:</strong> Cisco IOS, enterprise switching, VLAN segmentation, ACL enforcement, NAT, TCP/IP stack internals (L2–L7).</li>
+              <li><strong class="text-slate-300 font-medium">Protocol Analysis:</strong> Deep Packet Inspection (DPI), Wireshark, TShark, TCPDump, flow telemetry extraction (NetFlow/IPFIX).</li>
+            </ul>
+          </div>
+        </div>
+        <span class="text-xs bg-blue-950/40 text-blue-300 border border-blue-800/40 px-2 py-0.5 rounded shrink-0">Network</span>
       </div>
 
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <h3 class="text-sm font-bold text-slate-100 mb-2">AI Security & Applied Frameworks</h3>
-        <ul class="text-xs sm:text-sm text-slate-400 space-y-1.5 leading-relaxed">
-          <li><span class="text-slate-300 font-medium">Adversarial Evaluation:</span> OWASP Top 10 for LLMs, prompt injection, evasion attacks, data poisoning, and model inference verification.</li>
-          <li><span class="text-slate-300 font-medium">Applied Tooling:</span> PyTorch, Scikit-learn, Pandas, NumPy (focused on telemetry feature extraction and defensive evaluation workflows).</li>
-        </ul>
+      <!-- AI Security -->
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="brain" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-2 leading-snug">AI Security & Applied Frameworks</h3>
+            <ul class="text-sm text-slate-400 space-y-1.5 leading-relaxed m-0 p-0 list-none">
+              <li><strong class="text-slate-300 font-medium">Adversarial Evaluation:</strong> OWASP Top 10 for LLMs, prompt injection, evasion attacks, data poisoning, and model inference verification.</li>
+              <li><strong class="text-slate-300 font-medium">Applied Tooling:</strong> PyTorch, Scikit-learn, Pandas, NumPy (focused on telemetry feature extraction and defensive evaluation workflows).</li>
+            </ul>
+          </div>
+        </div>
+        <span class="text-xs bg-purple-950/40 text-purple-300 border border-purple-800/40 px-2 py-0.5 rounded shrink-0">AI</span>
       </div>
 
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <h3 class="text-sm font-bold text-slate-100 mb-2">Systems, Scripting & Governance</h3>
-        <ul class="text-xs sm:text-sm text-slate-400 space-y-1.5 leading-relaxed">
-          <li><span class="text-slate-300 font-medium">Environments:</span> Linux administration (Debian, Ubuntu, Kali), Windows Enterprise / Server, virtualization platforms.</li>
-          <li><span class="text-slate-300 font-medium">Scripting:</span> Python (code comprehension, PoC adaptation, automation), Bash / POSIX Shell.</li>
-          <li><span class="text-slate-300 font-medium">Foundational GRC:</span> Mapping technical findings to risk impact, baseline security frameworks, and defensive mitigation planning.</li>
-        </ul>
+      <!-- Systems, Scripting & Governance -->
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="cpu" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-2 leading-snug">Systems, Scripting & Governance</h3>
+            <ul class="text-sm text-slate-400 space-y-1.5 leading-relaxed m-0 p-0 list-none">
+              <li><strong class="text-slate-300 font-medium">Operating Environments:</strong> Linux administration (Debian, Ubuntu, Kali), Windows Enterprise / Server, virtualization platforms.</li>
+              <li><strong class="text-slate-300 font-medium">Scripting:</strong> Python (code comprehension, PoC adaptation, automation), Bash / POSIX Shell.</li>
+              <li><strong class="text-slate-300 font-medium">Foundational GRC:</strong> Mapping technical findings to risk impact, baseline security frameworks, and defensive mitigation planning.</li>
+            </ul>
+          </div>
+        </div>
+        <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">Systems</span>
       </div>
     </div>
   </div>
