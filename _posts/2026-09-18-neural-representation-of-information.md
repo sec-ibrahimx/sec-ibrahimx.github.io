@@ -17,11 +17,9 @@ category: blog
 
 ### محاكاة عصبية: كيف يتعامل الدماغ مع السيناريوهين؟
 
-لتقريب الفارق البنيوي في الجهاز العصبي، يعرض المخطط أدناه كيف ينعكس نمط التعلّم على طريقة تشابك الخلايا العصبية:
-
 <div style="background:#0d1117; border:1px solid #30363d; border-radius:8px; padding:1.5rem; color:#c9d1d9; font-family:sans-serif; margin:2rem 0;">
 
-  <!-- Scenario 1 Box -->
+  <!-- Scenario 1 -->
   <div style="margin-bottom:2.5rem;">
     <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:0.6rem;">
       <h4 style="margin:0; color:#f85149; font-size:1.1rem;">السيناريو الأول: استقبال المعلومة ككتلة واحدة جامدة</h4>
@@ -35,7 +33,7 @@ category: blog
 
   <hr style="border:0; border-top:1px dashed #30363d; margin:2rem 0;" />
 
-  <!-- Scenario 2 Box -->
+  <!-- Scenario 2 -->
   <div>
     <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:0.6rem;">
       <h4 style="margin:0; color:#3fb950; font-size:1.1rem;">السيناريو الثاني: تفكيك المعلومة إلى عناصرها المستقلة</h4>
@@ -50,10 +48,13 @@ category: blog
 </div>
 
 <script>
-(function() {
+window.addEventListener('load', function() {
   const c1 = document.getElementById('canvas-s1');
-  const ctx1 = c1.getContext('2d');
   const c2 = document.getElementById('canvas-s2');
+
+  if (!c1 || !c2) return;
+
+  const ctx1 = c1.getContext('2d');
   const ctx2 = c2.getContext('2d');
 
   let step1 = 0;
@@ -69,7 +70,7 @@ category: blog
     ctx.stroke();
 
     ctx.fillStyle = '#ffffff';
-    ctx.font = '12px sans-serif';
+    ctx.font = 'bold 12px sans-serif';
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillText(label, x, y);
@@ -88,7 +89,7 @@ category: blog
     ctx1.clearRect(0, 0, c1.width, c1.height);
     step1 = (step1 + 0.008) % 1;
 
-    const x1 = 180, y1 = 90, x2 = 520, y2 = 90;
+    const x1 = 200, y1 = 90, x2 = 500, y2 = 90;
 
     ctx1.beginPath();
     ctx1.moveTo(x1, y1);
@@ -99,14 +100,14 @@ category: blog
     ctx1.stroke();
     ctx1.setLineDash([]);
 
-    drawPulse(ctx1, x1, y1, x2, y2, step1, '#f85149', 3);
+    drawPulse(ctx1, x1, y1, x2, y2, step1, '#f85149', 3.5);
     drawNode(ctx1, x1, y1, 30, 'الحاسب', '#f85149');
     drawNode(ctx1, x2, y2, 30, 'سريع', '#f85149');
   }
 
   function renderScenario2() {
     ctx2.clearRect(0, 0, c2.width, c2.height);
-    step2 = (step2 + 0.02) % 1;
+    step2 = (step2 + 0.018) % 1;
 
     const center = { x: 350, y: 140 };
     const nodes = [
@@ -116,7 +117,6 @@ category: blog
       { x: 540, y: 220, name: 'تبريد Thermal' }
     ];
 
-    // Cross mesh
     for (let i = 0; i < nodes.length; i++) {
       for (let j = i + 1; j < nodes.length; j++) {
         ctx2.beginPath();
@@ -128,8 +128,7 @@ category: blog
       }
     }
 
-    // Direct strong links to core concept
-    nodes.forEach(n => {
+    nodes.forEach(function(n) {
       ctx2.beginPath();
       ctx2.moveTo(n.x, n.y);
       ctx2.lineTo(center.x, center.y);
@@ -140,7 +139,10 @@ category: blog
       drawPulse(ctx2, n.x, n.y, center.x, center.y, step2, '#58a6ff', 4.5);
     });
 
-    nodes.forEach(n => drawNode(ctx2, n.x, n.y, 28, n.name, '#58a6ff'));
+    nodes.forEach(function(n) {
+      drawNode(ctx2, n.x, n.y, 28, n.name, '#58a6ff');
+    });
+
     drawNode(ctx2, center.x, center.y, 42, 'سرعة النظام', '#3fb950');
   }
 
@@ -151,5 +153,5 @@ category: blog
   }
 
   loop();
-})();
+});
 </script>
