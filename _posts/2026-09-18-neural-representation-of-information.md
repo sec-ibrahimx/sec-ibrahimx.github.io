@@ -8,6 +8,7 @@ tags:
   - Mental Models
   - Cognitive Science
 excerpt: "تحليل لكيفية معالجة الدماغ للمفاهيم عبر تفكيكها لتقليل الحمل الإدراكي وبناء نماذج ذهنية متماسكة."
+published: false
 ---
 
 <div dir="rtl" style="text-align: right;" markdown="1">
