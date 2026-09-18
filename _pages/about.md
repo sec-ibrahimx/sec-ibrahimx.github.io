@@ -1,5 +1,5 @@
 ---
-permalink: /cv/
+permalink: /
 title: ""
 author_profile: false
 ---
@@ -9,195 +9,137 @@ author_profile: false
 
 <div class="w-full max-w-2xl mx-auto px-4 sm:px-6 py-4 text-slate-200 font-sans antialiased">
 
-  <div class="mb-8">
-    <h1 class="text-2xl font-bold text-slate-100 tracking-tight mb-2">Curriculum Vitae</h1>
-    <p class="text-sm text-slate-400 leading-relaxed">
-      Academic background, technical competencies, operational background, and credentials.
+  <div class="bg-[#111827]/60 border border-slate-800 rounded-2xl p-5 mb-8">
+    <div class="flex items-center justify-between mb-4">
+      <div class="flex items-center gap-3.5">
+        <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 border border-slate-700/50 shrink-0">
+          <i data-lucide="user" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h1 class="font-bold text-slate-100 text-xl leading-tight m-0">Ibrahim</h1>
+          <p class="text-sm text-slate-400 m-0 mt-0.5">Systems & AI Security Researcher</p>
+        </div>
+      </div>
+      <a href="https://github.com/sec-ibrahimx" target="_blank" class="inline-flex items-center gap-1.5 bg-transparent hover:bg-slate-800/60 text-slate-300 text-xs font-medium px-3.5 py-1.5 rounded-lg border border-slate-700/70 transition no-underline">
+        <i data-lucide="github" class="w-3.5 h-3.5"></i>
+        <span>GitHub</span>
+      </a>
+    </div>
+
+    <p class="text-sm text-slate-300 leading-relaxed mb-5">
+      Securing systems and AI from the adversary's vantage point through empirical offensive research.
     </p>
-  </div>
 
-  <!-- Profile -->
-  <div class="mb-8">
-    <div class="flex items-center gap-2 mb-3.5 text-slate-200">
-      <i data-lucide="user" class="w-5 h-5 text-slate-400"></i>
-      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Professional Profile</h2>
-    </div>
-
-    <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 space-y-3">
-      <p class="text-sm text-slate-300 leading-relaxed m-0">
-        Researcher focusing on Systems & AI Security, backed by 6+ years of hands-on operational experience across enterprise networking, infrastructure isolation, and defensive fundamentals.
-      </p>
-      <p class="text-sm text-slate-400 leading-relaxed m-0">
-        My technical focus centers on analyzing AI threat surfaces, ML model evasion/robustness, deep packet inspection (DPI), behavioral telemetry, and engineering practical proof-of-concept tooling from emerging security literature.
-      </p>
+    <div class="flex flex-wrap gap-2">
+      <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-300 text-xs px-3 py-1 rounded-lg">
+        <i data-lucide="shield" class="w-3.5 h-3.5"></i> Security Research
+      </span>
+      <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-300 text-xs px-3 py-1 rounded-lg">
+        <i data-lucide="brain" class="w-3.5 h-3.5"></i> AI Security
+      </span>
+      <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-300 text-xs px-3 py-1 rounded-lg">
+        <i data-lucide="network" class="w-3.5 h-3.5"></i> Systems Security
+      </span>
     </div>
   </div>
 
-  <!-- Professional Experience -->
   <div class="mb-8">
     <div class="flex items-center gap-2 mb-3.5 text-slate-200">
-      <i data-lucide="briefcase" class="w-5 h-5 text-slate-400"></i>
-      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Professional Experience</h2>
-    </div>
-
-    <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start gap-3.5">
-      <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
-        <i data-lucide="server" class="w-5 h-5"></i>
-      </div>
-      <div>
-        <div class="flex items-center justify-between gap-2 mb-1">
-          <h3 class="text-base font-bold text-slate-100 m-0 leading-snug">Systems & Network Infrastructure Engineering</h3>
-          <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">6+ Years</span>
-        </div>
-        <ul class="list-disc list-inside text-sm text-slate-400 space-y-1.5 leading-relaxed mt-2">
-          <li>Practical engineering across enterprise networks, server environments, and production systems.</li>
-          <li>Hands-on routing, switching, infrastructure isolation, VLAN segmentation, and administration.</li>
-          <li>Network traffic analysis, perimeter defense enforcement, and enterprise attack surface reduction.</li>
-          <li>Transitioned core operational infrastructure foundations into applied security research.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- Technical Competencies -->
-  <div class="mb-8">
-    <div class="flex items-center gap-2 mb-3.5 text-slate-200">
-      <i data-lucide="terminal" class="w-5 h-5 text-slate-400"></i>
-      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Technical Competencies & Toolset</h2>
+      <i data-lucide="crosshair" class="w-5 h-5 text-slate-400"></i>
+      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Focus & Interests</h2>
     </div>
 
     <div class="space-y-3">
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <h3 class="text-sm font-bold text-slate-100 mb-2">Offensive Security & Practical Assessment</h3>
-        <ul class="text-xs sm:text-sm text-slate-400 space-y-1.5 leading-relaxed">
-          <li><span class="text-slate-300 font-medium">Network & Host:</span> Nmap, Metasploit, traffic pivoting/forwarding (Chisel, SSH tunneling), privilege escalation vectors.</li>
-          <li><span class="text-slate-300 font-medium">Active Directory:</span> BloodHound, Impacket suite, Kerbrute, Mimikatz, Kerberoasting, AS-REP Roasting, Pass-the-Hash/Ticket.</li>
-          <li><span class="text-slate-300 font-medium">Web Application Testing:</span> Assessing injection flaws (SQLi, Command Injection), auth & session handling, file uploads, traversal (LFI/RFI), and misconfigurations.</li>
-          <li><span class="text-slate-300 font-medium">PoC Execution:</span> Reviewing, customizing, and executing public proof-of-concept exploits safely within isolated scopes.</li>
-          <li><span class="text-slate-300 font-medium">Security Reporting:</span> Structured penetration testing documentation, translating exploit chains into risk impact and remediation.</li>
-        </ul>
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="file-text" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">Security Research & Paper Analysis</h3>
+            <p class="text-sm text-slate-400 m-0 leading-relaxed">Reading, dissecting, and critically evaluating academic research to identify practical solutions.</p>
+          </div>
+        </div>
+        <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">Research</span>
       </div>
 
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <h3 class="text-sm font-bold text-slate-100 mb-2">Network Engineering & Telemetry</h3>
-        <ul class="text-xs sm:text-sm text-slate-400 space-y-1.5 leading-relaxed">
-          <li><span class="text-slate-300 font-medium">Infrastructure & Routing:</span> Cisco IOS, enterprise switching, VLAN segmentation, ACL enforcement, NAT, TCP/IP stack internals (L2–L7).</li>
-          <li><span class="text-slate-300 font-medium">Protocol Analysis:</span> Deep Packet Inspection (DPI), Wireshark, TShark, TCPDump, flow telemetry extraction (NetFlow/IPFIX).</li>
-        </ul>
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="brain" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">AI Security</h3>
+            <p class="text-sm text-slate-400 m-0 leading-relaxed">Analyzing vulnerabilities in AI systems, threat surfaces, and defending models against targeted attacks.</p>
+          </div>
+        </div>
+        <span class="text-xs bg-purple-950/40 text-purple-300 border border-purple-800/40 px-2 py-0.5 rounded shrink-0">AI</span>
       </div>
 
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <h3 class="text-sm font-bold text-slate-100 mb-2">AI Security & Applied Frameworks</h3>
-        <ul class="text-xs sm:text-sm text-slate-400 space-y-1.5 leading-relaxed">
-          <li><span class="text-slate-300 font-medium">Adversarial Evaluation:</span> OWASP Top 10 for LLMs, prompt injection, evasion attacks, data poisoning, and model inference verification.</li>
-          <li><span class="text-slate-300 font-medium">Applied Tooling:</span> PyTorch, Scikit-learn, Pandas, NumPy (focused on telemetry feature extraction and defensive evaluation workflows).</li>
-        </ul>
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="network" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">Systems & Network Security</h3>
+            <p class="text-sm text-slate-400 m-0 leading-relaxed">Hardening systems, network traffic analysis, observability, and defensive architectures.</p>
+          </div>
+        </div>
+        <span class="text-xs bg-blue-950/40 text-blue-300 border border-blue-800/40 px-2 py-0.5 rounded shrink-0">Systems</span>
       </div>
 
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <h3 class="text-sm font-bold text-slate-100 mb-2">Systems, Scripting & Governance</h3>
-        <ul class="text-xs sm:text-sm text-slate-400 space-y-1.5 leading-relaxed">
-          <li><span class="text-slate-300 font-medium">Environments:</span> Linux administration (Debian, Ubuntu, Kali), Windows Enterprise / Server, virtualization platforms.</li>
-          <li><span class="text-slate-300 font-medium">Scripting:</span> Python (code comprehension, PoC adaptation, automation), Bash / POSIX Shell.</li>
-          <li><span class="text-slate-300 font-medium">Foundational GRC:</span> Mapping technical findings to risk impact, baseline security frameworks, and defensive mitigation planning.</li>
-        </ul>
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="code" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">Applied Technical Projects</h3>
+            <p class="text-sm text-slate-400 m-0 leading-relaxed">Building and testing practical security implementations and hands-on artifacts.</p>
+          </div>
+        </div>
+        <span class="text-xs bg-emerald-950/40 text-emerald-400 border border-emerald-800/40 px-2 py-0.5 rounded shrink-0">Projects</span>
       </div>
     </div>
   </div>
 
-  <!-- Education -->
   <div class="mb-8">
     <div class="flex items-center gap-2 mb-3.5 text-slate-200">
-      <i data-lucide="graduation-cap" class="w-5 h-5 text-slate-400"></i>
-      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Education</h2>
+      <i data-lucide="book-open" class="w-5 h-5 text-slate-400"></i>
+      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Explore Portfolio</h2>
     </div>
 
     <div class="space-y-3">
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <div class="flex items-center justify-between gap-2 mb-1">
-          <h3 class="text-base font-bold text-slate-100 m-0 leading-snug">Bachelor of Science in Information Technology and Computing</h3>
-          <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">Expected 2027</span>
+      <a href="/research/" class="group block bg-[#111827]/60 hover:bg-[#111827] border border-slate-800 hover:border-slate-700 rounded-xl p-4 transition no-underline">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3.5">
+            <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 group-hover:text-slate-200 shrink-0 transition">
+              <i data-lucide="file-text" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h3 class="text-base font-bold text-slate-100 m-0 mb-0.5 leading-snug group-hover:text-sky-400 transition">Research & Papers</h3>
+              <p class="text-sm text-slate-400 m-0 leading-relaxed">Breakdowns, gap analyses, and critical reviews of security and AI literature.</p>
+            </div>
+          </div>
+          <i data-lucide="arrow-right" class="w-4 h-4 text-slate-500 group-hover:text-slate-300 group-hover:translate-x-0.5 transition shrink-0 ml-2"></i>
         </div>
-        <p class="text-xs text-slate-400 m-0">Networking & Security Track — Arab Open University (Validated by Open University, UK)</p>
-      </div>
+      </a>
 
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <div class="flex items-center justify-between gap-2 mb-1">
-          <h3 class="text-base font-bold text-slate-100 m-0 leading-snug">Associate Diploma in Cybersecurity</h3>
-          <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">42 Credit Hours</span>
+      <a href="/blog/" class="group block bg-[#111827]/60 hover:bg-[#111827] border border-slate-800 hover:border-slate-700 rounded-xl p-4 transition no-underline">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3.5">
+            <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 group-hover:text-slate-200 shrink-0 transition">
+              <i data-lucide="terminal" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h3 class="text-base font-bold text-slate-100 m-0 mb-0.5 leading-snug group-hover:text-sky-400 transition">Technical Blog</h3>
+              <p class="text-sm text-slate-400 m-0 leading-relaxed">Practical write-ups, lab observations, systems tooling, and engineering field notes.</p>
+            </div>
+          </div>
+          <i data-lucide="arrow-right" class="w-4 h-4 text-slate-500 group-hover:text-slate-300 group-hover:translate-x-0.5 transition shrink-0 ml-2"></i>
         </div>
-        <p class="text-xs text-slate-400 m-0">Tuwaiq Academy</p>
-      </div>
-
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4">
-        <div class="flex items-center justify-between gap-2 mb-1">
-          <h3 class="text-base font-bold text-slate-100 m-0 leading-snug">Associate Degree in Computer Networks</h3>
-          <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">Riyadh</span>
-        </div>
-        <p class="text-xs text-slate-400 m-0">College of Telecom and Information (CTI)</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Certifications -->
-  <div class="mb-8">
-    <div class="flex items-center gap-2 mb-3.5 text-slate-200">
-      <i data-lucide="award" class="w-5 h-5 text-slate-400"></i>
-      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Certifications</h2>
-    </div>
-
-    <div class="space-y-3">
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-center justify-between gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0">
-            <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
-          </div>
-          <div>
-            <h3 class="text-sm font-bold text-slate-100 m-0 leading-snug">eCPPTv3</h3>
-            <p class="text-xs text-slate-400 m-0">Certified Professional Penetration Tester</p>
-          </div>
-        </div>
-        <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">INE Security</span>
-      </div>
-
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-center justify-between gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0">
-            <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
-          </div>
-          <div>
-            <h3 class="text-sm font-bold text-slate-100 m-0 leading-snug">eJPTv2</h3>
-            <p class="text-xs text-slate-400 m-0">Junior Penetration Tester</p>
-          </div>
-        </div>
-        <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">INE Security</span>
-      </div>
-
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-center justify-between gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0">
-            <i data-lucide="award" class="w-4 h-4 text-blue-400"></i>
-          </div>
-          <div>
-            <h3 class="text-sm font-bold text-slate-100 m-0 leading-snug">CCNA Curriculum Series (ITN, SRWE, ENSA)</h3>
-            <p class="text-xs text-slate-400 m-0">Enterprise Networking, Security, and Automation</p>
-          </div>
-        </div>
-        <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">Cisco & AOU</span>
-      </div>
-
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-center justify-between gap-3">
-        <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0">
-            <i data-lucide="loader" class="w-4 h-4 text-amber-400 animate-spin"></i>
-          </div>
-          <div>
-            <h3 class="text-sm font-bold text-slate-100 m-0 leading-snug">HTB Certified Offensive AI Expert</h3>
-            <p class="text-xs text-slate-400 m-0">Hack The Box</p>
-          </div>
-        </div>
-        <span class="text-xs bg-amber-950/40 text-amber-400 border border-amber-800/40 px-2 py-0.5 rounded shrink-0">In Progress</span>
-      </div>
+      </a>
     </div>
   </div>
 
