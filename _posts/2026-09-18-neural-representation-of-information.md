@@ -10,7 +10,7 @@ tags:
 excerpt: "تحليل لكيفية معالجة الدماغ للمفاهيم عبر تفكيكها لتقليل الحمل الإدراكي وبناء نماذج ذهنية متماسكة."
 ---
 
-<div dir="rtl" style="text-align: justify; text-justify: inter-word;">
+<div dir="rtl" style="text-align: right;" markdown="1">
 
 ## سياق المفهوم وتفكيك البيانات
 
@@ -33,8 +33,6 @@ excerpt: "تحليل لكيفية معالجة الدماغ للمفاهيم ع�
 
 ## المحاكاة البصرية للشبكة
 
-<div align="center" style="margin: 2rem 0;">
-  <img src="/assets/images/neural_model_accurate.gif" alt="محاكاة الشبكات العصبية للمعلومة" style="max-width: 100%; border-radius: 8px; border: 1px solid #30363d;" />
-</div>
+![محاكاة الشبكات العصبية للمعلومة](/assets/images/neural_model_accurate.gif)
 
 </div>
