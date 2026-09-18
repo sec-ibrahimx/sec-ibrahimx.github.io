@@ -12,10 +12,11 @@ author_profile: false
   <div class="mb-8">
     <h1 class="text-2xl font-bold text-slate-100 tracking-tight mb-2">Curriculum Vitae</h1>
     <p class="text-sm text-slate-400 leading-relaxed">
-      Professional profile, research focus, and technical competencies.
+      Academic background, technical competencies, operational background, and credentials.
     </p>
   </div>
 
+  <!-- Profile -->
   <div class="mb-8">
     <div class="flex items-center gap-2 mb-3.5 text-slate-200">
       <i data-lucide="user" class="w-5 h-5 text-slate-400"></i>
@@ -24,75 +25,15 @@ author_profile: false
 
     <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 space-y-3">
       <p class="text-sm text-slate-300 leading-relaxed m-0">
-        Researcher focusing on Systems & AI Security, backed by hands-on operational experience across enterprise networking, infrastructure, and defensive fundamentals.
+        Researcher focusing on Systems & AI Security, backed by 6+ years of hands-on operational experience across enterprise networking, infrastructure isolation, and defensive fundamentals.
       </p>
       <p class="text-sm text-slate-400 leading-relaxed m-0">
-        My work bridges low-level network protocol analysis with applied AI security research—focusing on securing artificial intelligence systems against adversarial threats, analyzing network attack surfaces, critically evaluating academic security literature, and engineering defensive technical artifacts.
+        My technical focus centers on analyzing AI threat surfaces, ML model evasion/robustness, deep packet inspection (DPI), behavioral telemetry, and engineering practical proof-of-concept tooling from emerging security literature.
       </p>
     </div>
   </div>
 
-  <div class="mb-8">
-    <div class="flex items-center gap-2 mb-3.5 text-slate-200">
-      <i data-lucide="crosshair" class="w-5 h-5 text-slate-400"></i>
-      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Core Focus & Research Domains</h2>
-    </div>
-
-    <div class="space-y-3">
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
-        <div class="flex items-start gap-3.5">
-          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
-            <i data-lucide="brain" class="w-5 h-5"></i>
-          </div>
-          <div>
-            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">AI Security & Adversarial Robustness</h3>
-            <p class="text-sm text-slate-400 m-0 leading-relaxed mb-2">Threat modeling for ML pipelines, vulnerability analysis, data manipulation, and empirical robustness evaluation.</p>
-            <ul class="list-disc list-inside text-xs text-slate-400 space-y-1">
-              <li>Threat modeling for ML pipelines and inference architectures.</li>
-              <li>Vulnerability analysis, evasion vectors, and model exploitation surfaces.</li>
-              <li>Empirical robustness evaluation and defensive hardening for AI systems.</li>
-            </ul>
-          </div>
-        </div>
-        <span class="text-xs bg-purple-950/40 text-purple-300 border border-purple-800/40 px-2 py-0.5 rounded shrink-0">AI</span>
-      </div>
-
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
-        <div class="flex items-start gap-3.5">
-          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
-            <i data-lucide="network" class="w-5 h-5"></i>
-          </div>
-          <div>
-            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">Network Security & Telemetry</h3>
-            <p class="text-sm text-slate-400 m-0 leading-relaxed mb-2">Deep packet inspection, flow behavioral analysis, and defensive network observability.</p>
-            <ul class="list-disc list-inside text-xs text-slate-400 space-y-1">
-              <li>Deep packet inspection (DPI), flow behavioral analysis, and protocol security (L2–L7).</li>
-              <li>Network forensics, behavioral anomaly detection, and raw telemetry extraction.</li>
-            </ul>
-          </div>
-        </div>
-        <span class="text-xs bg-blue-950/40 text-blue-300 border border-blue-800/40 px-2 py-0.5 rounded shrink-0">Systems</span>
-      </div>
-
-      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
-        <div class="flex items-start gap-3.5">
-          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
-            <i data-lucide="code" class="w-5 h-5"></i>
-          </div>
-          <div>
-            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">Applied Security Research & Prototyping</h3>
-            <p class="text-sm text-slate-400 m-0 leading-relaxed mb-2">Critical gap analysis of literature and engineering proof-of-concept defensive tooling.</p>
-            <ul class="list-disc list-inside text-xs text-slate-400 space-y-1">
-              <li>Critical evaluation, gap analysis, and empirical testing of academic security literature.</li>
-              <li>Engineering practical PoC tooling from theoretical adversarial ML research.</li>
-            </ul>
-          </div>
-        </div>
-        <span class="text-xs bg-emerald-950/40 text-emerald-400 border border-emerald-800/40 px-2 py-0.5 rounded shrink-0">Projects</span>
-      </div>
-    </div>
-  </div>
-
+  <!-- Professional Experience -->
   <div class="mb-8">
     <div class="flex items-center gap-2 mb-3.5 text-slate-200">
       <i data-lucide="briefcase" class="w-5 h-5 text-slate-400"></i>
@@ -118,6 +59,7 @@ author_profile: false
     </div>
   </div>
 
+  <!-- Technical Competencies -->
   <div class="mb-8">
     <div class="flex items-center gap-2 mb-3.5 text-slate-200">
       <i data-lucide="terminal" class="w-5 h-5 text-slate-400"></i>
@@ -163,6 +105,7 @@ author_profile: false
     </div>
   </div>
 
+  <!-- Education -->
   <div class="mb-8">
     <div class="flex items-center gap-2 mb-3.5 text-slate-200">
       <i data-lucide="graduation-cap" class="w-5 h-5 text-slate-400"></i>
@@ -196,6 +139,7 @@ author_profile: false
     </div>
   </div>
 
+  <!-- Certifications -->
   <div class="mb-8">
     <div class="flex items-center gap-2 mb-3.5 text-slate-200">
       <i data-lucide="award" class="w-5 h-5 text-slate-400"></i>
