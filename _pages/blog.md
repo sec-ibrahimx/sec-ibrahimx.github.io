@@ -3,7 +3,29 @@ layout: default
 permalink: /blog/
 title: ""
 author_profile: false
+sidebar: false
+classes: wide
 ---
+
+<style>
+  /* إخفاء البروفايل الجانبي وتوسيط الصفحة قسرياً */
+  .sidebar, .author__avatar, .sidebar__right {
+    display: none !important;
+  }
+  #main {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .page__inner-wrap {
+    float: none !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+</style>
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
