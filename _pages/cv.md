@@ -9,20 +9,10 @@ author_profile: false
 
 <div class="w-full max-w-2xl mx-auto px-4 sm:px-6 py-4 text-slate-200 font-sans antialiased">
 
-  <div class="bg-[#111827]/60 border border-slate-800 rounded-2xl p-5 mb-8">
-    <div class="flex items-center justify-between mb-4">
-      <div>
-        <h1 class="font-bold text-slate-100 text-xl leading-tight m-0">Curriculum Vitae</h1>
-        <p class="text-sm text-slate-400 m-0 mt-0.5">Professional profile, research focus, and technical competencies</p>
-      </div>
-      <a href="https://github.com/sec-ibrahimx" target="_blank" class="inline-flex items-center gap-1.5 bg-transparent hover:bg-slate-800/60 text-slate-300 text-xs font-medium px-3.5 py-1.5 rounded-lg border border-slate-700/70 transition no-underline">
-        <i data-lucide="github" class="w-3.5 h-3.5"></i>
-        <span>GitHub</span>
-      </a>
-    </div>
-
-    <p class="text-sm text-slate-300 leading-relaxed m-0">
-      Researcher focusing on Systems & AI Security, backed by hands-on operational experience across enterprise networking, infrastructure, and defensive fundamentals.
+  <div class="mb-8">
+    <h1 class="text-2xl font-bold text-slate-100 tracking-tight mb-2">Curriculum Vitae</h1>
+    <p class="text-sm text-slate-400 leading-relaxed">
+      Professional profile, research focus, and technical competencies.
     </p>
   </div>
 
