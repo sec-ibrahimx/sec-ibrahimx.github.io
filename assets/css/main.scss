@@ -118,3 +118,30 @@
   margin: 0 auto !important;
   width: 100% !important;
 }
+
+/* Mobile Gap Fix & Full Dark Theme Consistency */
+html,
+body,
+.initial-content,
+.page__footer,
+.page__footer-follow,
+footer {
+  background-color: #0d1117 !important;
+}
+
+/* Mobile Dropdown Navigation Fix */
+.greedy-nav .hidden-links {
+  background-color: #161b22 !important;
+  border: 1px solid #30363d !important;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6) !important;
+  top: 100% !important;
+}
+
+.greedy-nav .hidden-links a {
+  color: #cbd5e1 !important;
+}
+
+.greedy-nav .hidden-links a:hover {
+  background-color: #21262d !important;
+  color: #38bdf8 !important;
+}
