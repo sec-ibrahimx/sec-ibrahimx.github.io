@@ -1,17 +1,28 @@
 {% include base_path %}
 
 <style>
+  footer.page__footer,
   .page__footer {
+    background: transparent !important;
     background-color: transparent !important;
     border-top: none !important;
-    margin-top: 0 !important;
-    padding: 30px 0 20px 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-top: 2rem !important;
+    padding: 20px 0 30px 0 !important;
   }
+
+  .page__footer::before,
+  .page__footer::after {
+    display: none !important;
+    border: none !important;
+  }
+
   .page__footer-copyright {
     color: #8b949e !important;
-    font-size: 0.82rem !important;
-    letter-spacing: 0.5px;
+    font-size: 0.85rem !important;
     text-align: center !important;
+    margin: 0 auto !important;
   }
 </style>
 
