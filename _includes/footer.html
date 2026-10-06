@@ -3,35 +3,33 @@
 <style>
   .page__footer {
     clear: both !important;
-    float: none !important;
-    display: block !important;
-    width: 100% !important;
     background: transparent !important;
-    background-color: transparent !important;
     border: none !important;
-    border-top: none !important;
+    margin: 30px auto 0 auto !important;
+    padding: 0 0 30px 0 !important;
+    text-align: center !important;
+    width: 100% !important;
     box-shadow: none !important;
-    margin-top: 5rem !important;
-    padding: 30px 0 40px 0 !important;
-    position: relative !important;
-    z-index: 1 !important;
   }
 
   .page__footer::before,
   .page__footer::after {
     display: none !important;
-    border: none !important;
   }
 
-  .page__footer-copyright {
-    text-align: center !important;
+  .custom-clean-footer {
+    display: inline-block !important;
+    padding: 10px 25px !important;
+    border: 1px solid #30363d !important;
+    border-radius: 10px !important;
+    background-color: #161b22 !important;
     color: #8b949e !important;
     font-size: 0.85rem !important;
     letter-spacing: 0.5px;
-    margin: 0 auto !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
   }
 </style>
 
-<div class="page__footer-copyright">
+<div class="custom-clean-footer">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. All rights reserved.
 </div>
