@@ -2,34 +2,38 @@
 
 <style>
   .page__footer {
-    clear: both !important;
-    background: transparent !important;
-    border: none !important;
-    margin: 30px auto 0 auto !important;
-    padding: 0 0 30px 0 !important;
-    text-align: center !important;
-    width: 100% !important;
-    box-shadow: none !important;
+    clear: both;
+    background: transparent;
+    border: 0;
+    margin: 30px auto 0;
+    padding: 0 0 30px;
+    text-align: center;
+    width: 100%;
+    box-shadow: none;
   }
 
   .page__footer::before,
   .page__footer::after {
-    display: none !important;
+    display: none;
+    content: none;
   }
 
   .custom-clean-footer {
-    display: inline-block !important;
-    padding: 10px 25px !important;
-    border: 1px solid #30363d !important;
-    border-radius: 10px !important;
-    background-color: #161b22 !important;
-    color: #8b949e !important;
-    font-size: 0.85rem !important;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    background: #161b22;
+    color: #8b949e;
+    font-size: 0.85rem;
     letter-spacing: 0.5px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+    line-height: 1.5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 </style>
 
 <div class="custom-clean-footer">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. All rights reserved.
+  &copy; {{ site.time | date: '%Y' }}
+  {{ site.name | default: site.title }}.
+  All rights reserved.
 </div>
