@@ -145,3 +145,83 @@ footer {
   background-color: #21262d !important;
   color: #38bdf8 !important;
 }
+
+/* ==========================================
+   Ibrahim Security — Portfolio Polish
+   ========================================== */
+
+:root {
+  --portfolio-bg: #0d1117;
+  --portfolio-card: #111827;
+  --portfolio-card-hover: #151e2d;
+  --portfolio-border: #202d40;
+  --portfolio-text: #e6edf3;
+  --portfolio-muted: #94a3b8;
+  --portfolio-accent: #38bdf8;
+}
+
+/* Smooth, consistent interactions */
+#main a {
+  transition:
+    color 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+/* Keep the dark appearance consistent */
+html,
+body,
+.initial-content {
+  background-color: var(--portfolio-bg);
+}
+
+/* Refined portfolio cards */
+#main .rounded-xl,
+#main .rounded-2xl {
+  border-color: var(--portfolio-border);
+}
+
+/* Subtle hover effect for cards */
+#main a.group:hover {
+  background-color: var(--portfolio-card-hover);
+  border-color: #33465f;
+}
+
+/* Clear, consistent link accent */
+#main a:hover {
+  color: var(--portfolio-accent);
+}
+
+/* Keyboard accessibility */
+#main a:focus-visible,
+.masthead a:focus-visible {
+  outline: 2px solid var(--portfolio-accent);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+/* Improve text readability */
+#main p {
+  text-wrap: pretty;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  #main a {
+    transition: none !important;
+  }
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  #main {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  #main .rounded-xl,
+  #main .rounded-2xl {
+    overflow-wrap: anywhere;
+  }
+}
