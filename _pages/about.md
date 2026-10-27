@@ -7,7 +7,7 @@ author_profile: false
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
 
-<div class="w-full max-w-2xl mx-auto px-4 sm:px-6 py-4 text-slate-200 font-sans antialiased">
+<div class="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-slate-200 font-sans antialiased">
 
   <div class="bg-[#111827]/60 border border-slate-800 rounded-2xl p-5 mb-8">
     <div class="flex items-center justify-between mb-4">
