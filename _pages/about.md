@@ -4,532 +4,273 @@ title: ""
 author_profile: false
 ---
 
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="https://unpkg.com/lucide@latest"></script>
-
 <style>
-  :root {
-    --ib-bg: #0b1120;
-    --ib-surface: #101a2b;
-    --ib-surface-hover: #142238;
-    --ib-border: #243249;
-    --ib-text: #e6edf7;
-    --ib-muted: #9aaac0;
-    --ib-accent: #38bdf8;
-    --ib-accent-soft: rgba(56, 189, 248, 0.10);
+.home-page {
+  max-width: 860px;
+  margin: 1.5rem auto 3rem;
+  color: #dbe5f0;
+  font-family: inherit;
+  line-height: 1.75;
+}
+
+.home-page * {
+  box-sizing: border-box;
+}
+
+.home-hero {
+  padding: 2rem;
+  border: 1px solid #26384b;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #101d2c, #0b1420);
+}
+
+.home-kicker {
+  margin: 0 0 .65rem;
+  color: #5eead4;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.home-page h1 {
+  margin: 0;
+  color: #f4f8fc;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: -.04em;
+}
+
+.home-role {
+  margin: .8rem 0 1rem;
+  color: #91a9c0;
+  font-size: 1.05rem;
+}
+
+.home-intro {
+  max-width: 660px;
+  margin: 0;
+  color: #c1cfdd;
+  font-size: 1rem;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+  margin-top: 1.5rem;
+}
+
+.home-link {
+  display: inline-block;
+  padding: .65rem 1rem;
+  border: 1px solid #38516a;
+  border-radius: 9px;
+  color: #e8f4ff !important;
+  text-decoration: none !important;
+  font-size: .92rem;
+  font-weight: 650;
+  transition: border-color .18s ease, background .18s ease;
+}
+
+.home-link-primary {
+  border-color: #14b8a6;
+  background: #0f766e;
+  color: #ffffff !important;
+}
+
+.home-link:hover {
+  border-color: #5eead4;
+  background: #172a3b;
+}
+
+.home-link-primary:hover {
+  background: #115e59;
+}
+
+.home-section {
+  margin-top: 2.2rem;
+}
+
+.home-section h2 {
+  margin: 0 0 .35rem;
+  color: #f1f6fb;
+  font-size: 1.35rem;
+  letter-spacing: -.02em;
+}
+
+.home-section-intro {
+  margin: 0 0 1rem;
+  color: #91a9c0;
+  font-size: .95rem;
+}
+
+.home-interest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .85rem;
+}
+
+.home-interest {
+  padding: 1rem 1.1rem;
+  border: 1px solid #26384b;
+  border-radius: 12px;
+  background: #0e1926;
+}
+
+.home-interest h3 {
+  margin: 0 0 .35rem;
+  color: #e6eef7;
+  font-size: 1rem;
+}
+
+.home-interest p {
+  margin: 0;
+  color: #9fb1c3;
+  font-size: .9rem;
+  line-height: 1.65;
+}
+
+.home-explore {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .85rem;
+}
+
+.home-explore a {
+  display: block;
+  padding: 1.1rem;
+  border: 1px solid #26384b;
+  border-radius: 12px;
+  background: #0e1926;
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: border-color .18s ease, transform .18s ease;
+}
+
+.home-explore a:hover {
+  border-color: #2dd4bf;
+  transform: translateY(-2px);
+}
+
+.home-explore strong {
+  display: block;
+  margin-bottom: .25rem;
+  color: #e6eef7;
+  font-size: 1rem;
+}
+
+.home-explore span {
+  display: block;
+  color: #9fb1c3;
+  font-size: .9rem;
+}
+
+.home-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #26384b;
+  color: #71879b;
+  font-size: .82rem;
+}
+
+@media (max-width: 600px) {
+  .home-page {
+    margin-top: .5rem;
   }
 
-  .ib-portfolio {
-    width: 100%;
-    max-width: 900px;
-    margin-inline: auto;
-    padding: 2rem 1.25rem 3.5rem;
-    color: var(--ib-text);
-    font-family: inherit;
-    -webkit-font-smoothing: antialiased;
+  .home-hero {
+    padding: 1.35rem;
   }
 
-  .ib-portfolio * { box-sizing: border-box; }
-
-  .ib-portfolio a { text-decoration: none; }
-
-  .ib-portfolio .ib-panel {
-    background: linear-gradient(145deg, rgba(17, 27, 45, .96), rgba(13, 21, 36, .94));
-    border: 1px solid var(--ib-border);
-    border-radius: 18px;
+  .home-interest-grid,
+  .home-explore {
+    grid-template-columns: 1fr;
   }
+}
 
-  .ib-portfolio .ib-profile {
-    position: relative;
-    overflow: hidden;
-    padding: clamp(1.2rem, 3vw, 2rem);
-    margin-bottom: 2.4rem;
+@media (prefers-reduced-motion: reduce) {
+  .home-page *,
+  .home-page *::before,
+  .home-page *::after {
+    transition: none !important;
+    transform: none !important;
   }
-
-  .ib-portfolio .ib-profile::before {
-    content: "";
-    position: absolute;
-    width: 260px;
-    height: 260px;
-    top: -170px;
-    right: -90px;
-    border-radius: 50%;
-    background: rgba(56, 189, 248, .09);
-    filter: blur(8px);
-    pointer-events: none;
-  }
-
-  .ib-portfolio .ib-profile-top {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .ib-portfolio .ib-identity {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    min-width: 0;
-  }
-
-  .ib-portfolio .ib-avatar {
-    display: grid;
-    place-items: center;
-    width: 58px;
-    height: 58px;
-    flex: 0 0 58px;
-    color: var(--ib-accent);
-    background: var(--ib-accent-soft);
-    border: 1px solid rgba(56, 189, 248, .24);
-    border-radius: 16px;
-  }
-
-  .ib-portfolio .ib-name {
-    margin: 0;
-    color: #f8fafc;
-    font-size: clamp(1.45rem, 3vw, 1.85rem);
-    font-weight: 750;
-    line-height: 1.15;
-    letter-spacing: -.035em;
-  }
-
-  .ib-portfolio .ib-role {
-    margin: .4rem 0 0;
-    color: var(--ib-muted);
-    font-size: .92rem;
-    line-height: 1.5;
-  }
-
-  .ib-portfolio .ib-github {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: .5rem;
-    flex-shrink: 0;
-    padding: .65rem .9rem;
-    border: 1px solid #34445d;
-    border-radius: 10px;
-    color: #dce7f5;
-    font-size: .82rem;
-    font-weight: 600;
-    transition: background .2s ease, border-color .2s ease, transform .2s ease;
-  }
-
-  .ib-portfolio .ib-github:hover {
-    background: #1a2940;
-    border-color: #4b6688;
-    transform: translateY(-1px);
-  }
-
-  .ib-portfolio .ib-intro {
-    max-width: 680px;
-    margin: 1.5rem 0 1.25rem;
-    color: #c7d3e3;
-    font-size: .98rem;
-    line-height: 1.8;
-  }
-
-  .ib-portfolio .ib-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: .55rem;
-  }
-
-  .ib-portfolio .ib-tag {
-    display: inline-flex;
-    align-items: center;
-    gap: .45rem;
-    padding: .45rem .7rem;
-    border: 1px solid #26364c;
-    border-radius: 9px;
-    background: rgba(8, 15, 28, .55);
-    color: #c6d4e6;
-    font-size: .76rem;
-  }
-
-  .ib-portfolio .ib-section { margin-bottom: 2.5rem; }
-
-  .ib-portfolio .ib-section-heading {
-    display: flex;
-    align-items: center;
-    gap: .7rem;
-    margin: 0 0 1rem;
-    color: #f0f5fb;
-    font-size: 1.12rem;
-    font-weight: 720;
-    letter-spacing: -.015em;
-  }
-
-  .ib-portfolio .ib-heading-icon {
-    display: grid;
-    place-items: center;
-    width: 34px;
-    height: 34px;
-    border-radius: 10px;
-    background: var(--ib-accent-soft);
-    border: 1px solid rgba(56, 189, 248, .18);
-    color: var(--ib-accent);
-  }
-
-  .ib-portfolio .ib-section-kicker {
-    margin: -.45rem 0 1rem 2.85rem;
-    color: #8293aa;
-    font-size: .84rem;
-    line-height: 1.6;
-  }
-
-  .ib-portfolio .ib-interest-list {
-    display: grid;
-    gap: .8rem;
-  }
-
-  .ib-portfolio .ib-interest {
-    display: flex;
-    align-items: flex-start;
-    gap: .95rem;
-    padding: 1rem 1.05rem;
-    background: rgba(16, 26, 43, .72);
-    border: 1px solid var(--ib-border);
-    border-radius: 14px;
-  }
-
-  .ib-portfolio .ib-interest-icon {
-    display: grid;
-    place-items: center;
-    width: 42px;
-    height: 42px;
-    flex: 0 0 42px;
-    margin-top: .1rem;
-    border-radius: 11px;
-    color: #a9c1dd;
-    background: #17243a;
-    border: 1px solid #293a52;
-  }
-
-  .ib-portfolio .ib-interest-content { flex: 1; min-width: 0; }
-
-  .ib-portfolio .ib-card-title {
-    margin: 0 0 .35rem;
-    color: #eef4fb;
-    font-size: .98rem;
-    line-height: 1.45;
-    font-weight: 700;
-  }
-
-  .ib-portfolio .ib-card-copy {
-    margin: 0;
-    color: var(--ib-muted);
-    font-size: .86rem;
-    line-height: 1.7;
-  }
-
-  .ib-portfolio .ib-label {
-    flex-shrink: 0;
-    margin-top: .1rem;
-    padding: .28rem .5rem;
-    border: 1px solid #33435a;
-    border-radius: 7px;
-    color: #b5c5d9;
-    background: rgba(25, 39, 60, .7);
-    font-size: .7rem;
-    white-space: nowrap;
-  }
-
-  .ib-portfolio .ib-label-ai { color: #d3baff; border-color: #55427b; background: rgba(75, 47, 117, .2); }
-  .ib-portfolio .ib-label-systems { color: #9ed7ff; border-color: #315a7a; background: rgba(32, 85, 122, .2); }
-  .ib-portfolio .ib-label-projects { color: #9ee7c2; border-color: #2d6951; background: rgba(30, 105, 75, .18); }
-
-  .ib-portfolio .ib-work-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: .9rem;
-  }
-
-  .ib-portfolio .ib-work-card {
-    display: flex;
-    flex-direction: column;
-    min-height: 190px;
-    padding: 1.15rem;
-    border: 1px solid var(--ib-border);
-    border-radius: 15px;
-    background: linear-gradient(145deg, rgba(17, 27, 45, .9), rgba(13, 21, 36, .88));
-    transition: transform .2s ease, border-color .2s ease, background .2s ease;
-  }
-
-  .ib-portfolio .ib-work-card:hover {
-    transform: translateY(-3px);
-    border-color: #3a5876;
-    background: linear-gradient(145deg, #142238, #101b2d);
-  }
-
-  .ib-portfolio .ib-work-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: .75rem;
-    margin-bottom: 1rem;
-  }
-
-  .ib-portfolio .ib-work-icon {
-    display: grid;
-    place-items: center;
-    width: 42px;
-    height: 42px;
-    border-radius: 12px;
-    color: var(--ib-accent);
-    background: var(--ib-accent-soft);
-    border: 1px solid rgba(56, 189, 248, .2);
-  }
-
-  .ib-portfolio .ib-arrow {
-    color: #71849e;
-    transition: color .2s ease, transform .2s ease;
-  }
-
-  .ib-portfolio .ib-work-card:hover .ib-arrow {
-    color: var(--ib-accent);
-    transform: translate(2px, -2px);
-  }
-
-  .ib-portfolio .ib-work-card .ib-card-copy { margin-top: .2rem; }
-
-  .ib-portfolio .ib-card-foot {
-    display: flex;
-    align-items: center;
-    gap: .4rem;
-    margin-top: auto;
-    padding-top: 1.1rem;
-    color: #7f93ad;
-    font-size: .75rem;
-  }
-
-  .ib-portfolio .ib-notes {
-    display: grid;
-    gap: .75rem;
-  }
-
-  .ib-portfolio .ib-note-row {
-    display: flex;
-    align-items: flex-start;
-    gap: .85rem;
-    padding: .95rem 1rem;
-    border: 1px solid var(--ib-border);
-    border-radius: 12px;
-    background: rgba(16, 26, 43, .55);
-  }
-
-  .ib-portfolio .ib-note-dot {
-    width: 8px;
-    height: 8px;
-    flex: 0 0 8px;
-    margin-top: .48rem;
-    border-radius: 50%;
-    background: var(--ib-accent);
-    box-shadow: 0 0 12px rgba(56, 189, 248, .28);
-  }
-
-  .ib-portfolio .ib-note-row p {
-    margin: 0;
-    color: var(--ib-muted);
-    font-size: .85rem;
-    line-height: 1.7;
-  }
-
-  .ib-portfolio .ib-note-row strong {
-    color: #dce7f5;
-    font-weight: 650;
-  }
-
-  .ib-portfolio .ib-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: .8rem;
-    padding-top: 1.2rem;
-    border-top: 1px solid #1c293b;
-    color: #718198;
-    font-size: .76rem;
-  }
-
-  .ib-portfolio .ib-footer a { color: #9cb4d0; }
-  .ib-portfolio .ib-footer a:hover { color: var(--ib-accent); }
-
-  .ib-portfolio a:focus-visible {
-    outline: 2px solid var(--ib-accent);
-    outline-offset: 4px;
-  }
-
-  @media (max-width: 640px) {
-    .ib-portfolio { padding: 1.25rem 1rem 2.5rem; }
-    .ib-portfolio .ib-profile { margin-bottom: 2rem; }
-    .ib-portfolio .ib-profile-top { align-items: flex-start; }
-    .ib-portfolio .ib-avatar { width: 48px; height: 48px; flex-basis: 48px; border-radius: 13px; }
-    .ib-portfolio .ib-identity { gap: .75rem; }
-    .ib-portfolio .ib-role { font-size: .8rem; }
-    .ib-portfolio .ib-github { padding: .58rem .65rem; font-size: .76rem; }
-    .ib-portfolio .ib-intro { font-size: .91rem; }
-    .ib-portfolio .ib-work-grid { grid-template-columns: 1fr; }
-    .ib-portfolio .ib-work-card { min-height: 0; }
-    .ib-portfolio .ib-interest { gap: .7rem; padding: .9rem; }
-    .ib-portfolio .ib-interest-icon { width: 36px; height: 36px; flex-basis: 36px; }
-    .ib-portfolio .ib-label { display: none; }
-    .ib-portfolio .ib-footer { align-items: flex-start; flex-direction: column; }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .ib-portfolio * { scroll-behavior: auto !important; transition: none !important; }
-  }
+}
 </style>
 
-<div class="ib-portfolio">
+<div class="home-page">
 
-  <!-- Profile -->
-  <section class="ib-panel ib-profile">
-    <div class="ib-profile-top">
-      <div class="ib-identity">
-        <div class="ib-avatar" aria-hidden="true">
-          <i data-lucide="shield-check" style="width:27px;height:27px"></i>
-        </div>
-        <div>
-          <h1 class="ib-name">Ibrahim</h1>
-          <p class="ib-role">Systems &amp; AI Security Researcher</p>
-        </div>
-      </div>
-      <a class="ib-github" href="https://github.com/sec-ibrahimx" target="_blank" rel="noopener noreferrer">
-        <i data-lucide="github" style="width:16px;height:16px"></i>
-        <span>GitHub</span>
-        <i data-lucide="arrow-up-right" style="width:13px;height:13px"></i>
-      </a>
-    </div>
-
-    <p class="ib-intro">
-      Securing systems and AI from the adversary's vantage point through empirical offensive research.
+  <section class="home-hero">
+    <p class="home-kicker">Security Research · Systems · AI</p>
+    <h1>Ibrahim</h1>
+    <p class="home-role">Systems &amp; AI Security Researcher</p>
+    <p class="home-intro">
+      Securing systems and AI from the adversary's vantage point through
+      empirical offensive research. I explore how systems behave under
+      pressure, where security assumptions fail, and how those findings
+      can lead to stronger defenses.
     </p>
 
-    <div class="ib-tags" aria-label="Research interests">
-      <span class="ib-tag"><i data-lucide="shield" style="width:14px;height:14px"></i>Security Research</span>
-      <span class="ib-tag"><i data-lucide="brain-circuit" style="width:14px;height:14px"></i>AI Security</span>
-      <span class="ib-tag"><i data-lucide="network" style="width:14px;height:14px"></i>Systems Security</span>
+    <div class="home-links">
+      <a class="home-link home-link-primary"
+         href="https://github.com/sec-ibrahimx"
+         target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a class="home-link" href="/research/">Explore Research</a>
+      <a class="home-link" href="/blog/">Technical Notes</a>
     </div>
   </section>
 
-  <!-- Focus and interests -->
-  <section class="ib-section">
-    <h2 class="ib-section-heading">
-      <span class="ib-heading-icon"><i data-lucide="crosshair" style="width:18px;height:18px"></i></span>
-      Focus &amp; Interests
-    </h2>
+  <section class="home-section">
+    <h2>Focus &amp; Interests</h2>
+    <p class="home-section-intro">
+      The areas I study and build in.
+    </p>
 
-    <div class="ib-interest-list">
-      <article class="ib-interest">
-        <div class="ib-interest-icon"><i data-lucide="file-text" style="width:20px;height:20px"></i></div>
-        <div class="ib-interest-content">
-          <h3 class="ib-card-title">Security Research &amp; Paper Analysis</h3>
-          <p class="ib-card-copy">Reading, dissecting, and critically evaluating academic research to identify practical solutions.</p>
-        </div>
-        <span class="ib-label">Research</span>
+    <div class="home-interest-grid">
+      <article class="home-interest">
+        <h3>Security Research &amp; Paper Analysis</h3>
+        <p>Examining research methods, validating claims, and understanding practical security implications.</p>
       </article>
 
-      <article class="ib-interest">
-        <div class="ib-interest-icon"><i data-lucide="brain-circuit" style="width:20px;height:20px"></i></div>
-        <div class="ib-interest-content">
-          <h3 class="ib-card-title">AI Security</h3>
-          <p class="ib-card-copy">Analyzing vulnerabilities in AI systems, threat surfaces, and defenses against targeted attacks.</p>
-        </div>
-        <span class="ib-label ib-label-ai">AI</span>
+      <article class="home-interest">
+        <h3>AI Security</h3>
+        <p>Exploring threats to AI-enabled systems, model reliability, and ways to evaluate defensive techniques.</p>
       </article>
 
-      <article class="ib-interest">
-        <div class="ib-interest-icon"><i data-lucide="network" style="width:20px;height:20px"></i></div>
-        <div class="ib-interest-content">
-          <h3 class="ib-card-title">Systems &amp; Network Security</h3>
-          <p class="ib-card-copy">Hardening systems, analyzing network traffic, improving observability, and exploring defensive architectures.</p>
-        </div>
-        <span class="ib-label ib-label-systems">Systems</span>
+      <article class="home-interest">
+        <h3>Systems &amp; Network Security</h3>
+        <p>Studying network behavior, protocols, attack patterns, and the boundaries between systems.</p>
       </article>
 
-      <article class="ib-interest">
-        <div class="ib-interest-icon"><i data-lucide="code-2" style="width:20px;height:20px"></i></div>
-        <div class="ib-interest-content">
-          <h3 class="ib-card-title">Applied Technical Projects</h3>
-          <p class="ib-card-copy">Building and testing practical security implementations, tools, and reproducible technical artifacts.</p>
-        </div>
-        <span class="ib-label ib-label-projects">Projects</span>
+      <article class="home-interest">
+        <h3>Applied Technical Projects</h3>
+        <p>Turning research questions into experiments, prototypes, and measurable technical results.</p>
       </article>
     </div>
   </section>
 
-  <!-- Selected work -->
-  <section class="ib-section">
-    <h2 class="ib-section-heading">
-      <span class="ib-heading-icon"><i data-lucide="layers-3" style="width:18px;height:18px"></i></span>
-      Selected Work
-    </h2>
-    <p class="ib-section-kicker">Research directions and practical work across systems, networks, and AI security.</p>
+  <section class="home-section">
+    <h2>Explore</h2>
+    <p class="home-section-intro">
+      Browse the research and technical writing available on this site.
+    </p>
 
-    <div class="ib-work-grid">
-      <a class="ib-work-card" href="/projects/">
-        <div class="ib-work-top">
-          <span class="ib-work-icon"><i data-lucide="network" style="width:21px;height:21px"></i></span>
-          <i class="ib-arrow" data-lucide="arrow-up-right" style="width:17px;height:17px"></i>
-        </div>
-        <h3 class="ib-card-title">Systems &amp; Network Security</h3>
-        <p class="ib-card-copy">Traffic analysis, threat detection, system observability, and defensive engineering.</p>
-        <div class="ib-card-foot"><i data-lucide="folder-code" style="width:14px;height:14px"></i>Projects &amp; implementations</div>
+    <div class="home-explore">
+      <a href="/research/">
+        <strong>Research &amp; Analysis ↗</strong>
+        <span>Research notes, paper analysis, and security investigations.</span>
       </a>
 
-      <a class="ib-work-card" href="/research/">
-        <div class="ib-work-top">
-          <span class="ib-work-icon"><i data-lucide="brain-circuit" style="width:21px;height:21px"></i></span>
-          <i class="ib-arrow" data-lucide="arrow-up-right" style="width:17px;height:17px"></i>
-        </div>
-        <h3 class="ib-card-title">AI Security Research</h3>
-        <p class="ib-card-copy">Model robustness, adversarial techniques, and security evaluation of AI systems.</p>
-        <div class="ib-card-foot"><i data-lucide="book-open" style="width:14px;height:14px"></i>Research &amp; paper analysis</div>
+      <a href="/blog/">
+        <strong>Technical Notes ↗</strong>
+        <span>Technical write-ups, experiments, and lessons learned.</span>
       </a>
     </div>
   </section>
 
-  <!-- Research and technical notes -->
-  <section class="ib-section">
-    <h2 class="ib-section-heading">
-      <span class="ib-heading-icon"><i data-lucide="notebook-pen" style="width:18px;height:18px"></i></span>
-      Research &amp; Technical Notes
-    </h2>
-
-    <div class="ib-notes">
-      <div class="ib-note-row">
-        <span class="ib-note-dot" aria-hidden="true"></span>
-        <p><strong>Research &amp; Papers</strong> — Critical reviews, methodology analysis, and research gaps in security and AI literature.</p>
-      </div>
-      <div class="ib-note-row">
-        <span class="ib-note-dot" aria-hidden="true"></span>
-        <p><strong>Technical Blog</strong> — Practical write-ups, lab observations, tooling, and engineering field notes.</p>
-      </div>
-    </div>
-  </section>
-
-  <footer class="ib-footer">
-    <span>© <span id="ib-year">2026</span> Ibrahim · Security Research</span>
-    <a href="https://github.com/sec-ibrahimx" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+  <footer class="home-footer">
+    Independent security research and practical experimentation.
   </footer>
-</div>
 
-<script>
-  (function () {
-    function initIbrahimIcons() {
-      if (window.lucide && typeof window.lucide.createIcons === "function") {
-        window.lucide.createIcons();
-      }
-      var year = document.getElementById("ib-year");
-      if (year) year.textContent = new Date().getFullYear();
-    }
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", initIbrahimIcons);
-    } else {
-      initIbrahimIcons();
-    }
-  })();
-</script>
+</div>
