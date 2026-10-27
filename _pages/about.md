@@ -4,273 +4,147 @@ title: ""
 author_profile: false
 ---
 
-<style>
-.home-page {
-  max-width: 860px;
-  margin: 1.5rem auto 3rem;
-  color: #dbe5f0;
-  font-family: inherit;
-  line-height: 1.75;
-}
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
 
-.home-page * {
-  box-sizing: border-box;
-}
+<div class="w-full max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-slate-200 font-sans antialiased">
 
-.home-hero {
-  padding: 2rem;
-  border: 1px solid #26384b;
-  border-radius: 18px;
-  background: linear-gradient(145deg, #101d2c, #0b1420);
-}
-
-.home-kicker {
-  margin: 0 0 .65rem;
-  color: #5eead4;
-  font-size: .78rem;
-  font-weight: 700;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-}
-
-.home-page h1 {
-  margin: 0;
-  color: #f4f8fc;
-  font-size: clamp(2rem, 5vw, 3rem);
-  line-height: 1.15;
-  letter-spacing: -.04em;
-}
-
-.home-role {
-  margin: .8rem 0 1rem;
-  color: #91a9c0;
-  font-size: 1.05rem;
-}
-
-.home-intro {
-  max-width: 660px;
-  margin: 0;
-  color: #c1cfdd;
-  font-size: 1rem;
-}
-
-.home-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .7rem;
-  margin-top: 1.5rem;
-}
-
-.home-link {
-  display: inline-block;
-  padding: .65rem 1rem;
-  border: 1px solid #38516a;
-  border-radius: 9px;
-  color: #e8f4ff !important;
-  text-decoration: none !important;
-  font-size: .92rem;
-  font-weight: 650;
-  transition: border-color .18s ease, background .18s ease;
-}
-
-.home-link-primary {
-  border-color: #14b8a6;
-  background: #0f766e;
-  color: #ffffff !important;
-}
-
-.home-link:hover {
-  border-color: #5eead4;
-  background: #172a3b;
-}
-
-.home-link-primary:hover {
-  background: #115e59;
-}
-
-.home-section {
-  margin-top: 2.2rem;
-}
-
-.home-section h2 {
-  margin: 0 0 .35rem;
-  color: #f1f6fb;
-  font-size: 1.35rem;
-  letter-spacing: -.02em;
-}
-
-.home-section-intro {
-  margin: 0 0 1rem;
-  color: #91a9c0;
-  font-size: .95rem;
-}
-
-.home-interest-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: .85rem;
-}
-
-.home-interest {
-  padding: 1rem 1.1rem;
-  border: 1px solid #26384b;
-  border-radius: 12px;
-  background: #0e1926;
-}
-
-.home-interest h3 {
-  margin: 0 0 .35rem;
-  color: #e6eef7;
-  font-size: 1rem;
-}
-
-.home-interest p {
-  margin: 0;
-  color: #9fb1c3;
-  font-size: .9rem;
-  line-height: 1.65;
-}
-
-.home-explore {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: .85rem;
-}
-
-.home-explore a {
-  display: block;
-  padding: 1.1rem;
-  border: 1px solid #26384b;
-  border-radius: 12px;
-  background: #0e1926;
-  color: inherit !important;
-  text-decoration: none !important;
-  transition: border-color .18s ease, transform .18s ease;
-}
-
-.home-explore a:hover {
-  border-color: #2dd4bf;
-  transform: translateY(-2px);
-}
-
-.home-explore strong {
-  display: block;
-  margin-bottom: .25rem;
-  color: #e6eef7;
-  font-size: 1rem;
-}
-
-.home-explore span {
-  display: block;
-  color: #9fb1c3;
-  font-size: .9rem;
-}
-
-.home-footer {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid #26384b;
-  color: #71879b;
-  font-size: .82rem;
-}
-
-@media (max-width: 600px) {
-  .home-page {
-    margin-top: .5rem;
-  }
-
-  .home-hero {
-    padding: 1.35rem;
-  }
-
-  .home-interest-grid,
-  .home-explore {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .home-page *,
-  .home-page *::before,
-  .home-page *::after {
-    transition: none !important;
-    transform: none !important;
-  }
-}
-</style>
-
-<div class="home-page">
-
-  <section class="home-hero">
-    <p class="home-kicker">Security Research · Systems · AI</p>
-    <h1>Ibrahim</h1>
-    <p class="home-role">Systems &amp; AI Security Researcher</p>
-    <p class="home-intro">
-      Securing systems and AI from the adversary's vantage point through
-      empirical offensive research. I explore how systems behave under
-      pressure, where security assumptions fail, and how those findings
-      can lead to stronger defenses.
-    </p>
-
-    <div class="home-links">
-      <a class="home-link home-link-primary"
-         href="https://github.com/sec-ibrahimx"
-         target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-      <a class="home-link" href="/research/">Explore Research</a>
-      <a class="home-link" href="/blog/">Technical Notes</a>
-    </div>
-  </section>
-
-  <section class="home-section">
-    <h2>Focus &amp; Interests</h2>
-    <p class="home-section-intro">
-      The areas I study and build in.
-    </p>
-
-    <div class="home-interest-grid">
-      <article class="home-interest">
-        <h3>Security Research &amp; Paper Analysis</h3>
-        <p>Examining research methods, validating claims, and understanding practical security implications.</p>
-      </article>
-
-      <article class="home-interest">
-        <h3>AI Security</h3>
-        <p>Exploring threats to AI-enabled systems, model reliability, and ways to evaluate defensive techniques.</p>
-      </article>
-
-      <article class="home-interest">
-        <h3>Systems &amp; Network Security</h3>
-        <p>Studying network behavior, protocols, attack patterns, and the boundaries between systems.</p>
-      </article>
-
-      <article class="home-interest">
-        <h3>Applied Technical Projects</h3>
-        <p>Turning research questions into experiments, prototypes, and measurable technical results.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="home-section">
-    <h2>Explore</h2>
-    <p class="home-section-intro">
-      Browse the research and technical writing available on this site.
-    </p>
-
-    <div class="home-explore">
-      <a href="/research/">
-        <strong>Research &amp; Analysis ↗</strong>
-        <span>Research notes, paper analysis, and security investigations.</span>
-      </a>
-
-      <a href="/blog/">
-        <strong>Technical Notes ↗</strong>
-        <span>Technical write-ups, experiments, and lessons learned.</span>
+  <div class="bg-[#111827]/60 border border-slate-800 rounded-2xl p-5 mb-8">
+    <div class="flex items-center justify-between mb-4">
+      <div class="flex items-center gap-3.5">
+        <div class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 border border-slate-700/50 shrink-0">
+          <i data-lucide="user" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h1 class="font-bold text-slate-100 text-xl leading-tight m-0">Ibrahim</h1>
+          <p class="text-sm text-slate-400 m-0 mt-0.5">Systems & AI Security Researcher</p>
+        </div>
+      </div>
+      <a href="https://github.com/sec-ibrahimx" target="_blank" class="inline-flex items-center gap-1.5 bg-transparent hover:bg-slate-800/60 text-slate-300 text-xs font-medium px-3.5 py-1.5 rounded-lg border border-slate-700/70 transition no-underline">
+        <i data-lucide="github" class="w-3.5 h-3.5"></i>
+        <span>GitHub</span>
       </a>
     </div>
-  </section>
 
-  <footer class="home-footer">
-    Independent security research and practical experimentation.
-  </footer>
+    <p class="text-sm text-slate-300 leading-relaxed mb-5">
+      Securing systems and AI from the adversary's vantage point through empirical offensive research.
+    </p>
+
+    <div class="flex flex-wrap gap-2">
+      <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-300 text-xs px-3 py-1 rounded-lg">
+        <i data-lucide="shield" class="w-3.5 h-3.5"></i> Security Research
+      </span>
+      <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-300 text-xs px-3 py-1 rounded-lg">
+        <i data-lucide="brain" class="w-3.5 h-3.5"></i> AI Security
+      </span>
+      <span class="inline-flex items-center gap-1.5 bg-slate-900/60 border border-slate-800 text-slate-300 text-xs px-3 py-1 rounded-lg">
+        <i data-lucide="network" class="w-3.5 h-3.5"></i> Systems Security
+      </span>
+    </div>
+  </div>
+
+  <div class="mb-8">
+    <div class="flex items-center gap-2 mb-3.5 text-slate-200">
+      <i data-lucide="crosshair" class="w-5 h-5 text-slate-400"></i>
+      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Focus & Interests</h2>
+    </div>
+
+    <div class="space-y-3">
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="file-text" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">Security Research & Paper Analysis</h3>
+            <p class="text-sm text-slate-400 m-0 leading-relaxed">Reading, dissecting, and critically evaluating academic research to identify practical solutions.</p>
+          </div>
+        </div>
+        <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">Research</span>
+      </div>
+
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="brain" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">AI Security</h3>
+            <p class="text-sm text-slate-400 m-0 leading-relaxed">Analyzing vulnerabilities in AI systems, threat surfaces, and defending models against targeted attacks.</p>
+          </div>
+        </div>
+        <span class="text-xs bg-purple-950/40 text-purple-300 border border-purple-800/40 px-2 py-0.5 rounded shrink-0">AI</span>
+      </div>
+
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="network" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">Systems & Network Security</h3>
+            <p class="text-sm text-slate-400 m-0 leading-relaxed">Hardening systems, network traffic analysis, observability, and defensive architectures.</p>
+          </div>
+        </div>
+        <span class="text-xs bg-blue-950/40 text-blue-300 border border-blue-800/40 px-2 py-0.5 rounded shrink-0">Systems</span>
+      </div>
+
+      <div class="bg-[#111827]/60 border border-slate-800 rounded-xl p-4 flex items-start justify-between gap-3">
+        <div class="flex items-start gap-3.5">
+          <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 shrink-0 mt-0.5">
+            <i data-lucide="code" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-100 m-0 mb-1 leading-snug">Applied Technical Projects</h3>
+            <p class="text-sm text-slate-400 m-0 leading-relaxed">Building and testing practical security implementations and hands-on artifacts.</p>
+          </div>
+        </div>
+        <span class="text-xs bg-emerald-950/40 text-emerald-400 border border-emerald-800/40 px-2 py-0.5 rounded shrink-0">Projects</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-8">
+    <div class="flex items-center gap-2 mb-3.5 text-slate-200">
+      <i data-lucide="book-open" class="w-5 h-5 text-slate-400"></i>
+      <h2 class="text-lg font-bold m-0 p-0 tracking-normal text-slate-100">Explore Portfolio</h2>
+    </div>
+
+    <div class="space-y-3">
+      <a href="/research/" class="group block bg-[#111827]/60 hover:bg-[#111827] border border-slate-800 hover:border-slate-700 rounded-xl p-4 transition no-underline">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3.5">
+            <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 group-hover:text-slate-200 shrink-0 transition">
+              <i data-lucide="file-text" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h3 class="text-base font-bold text-slate-100 m-0 mb-0.5 leading-snug group-hover:text-sky-400 transition">Research & Papers</h3>
+              <p class="text-sm text-slate-400 m-0 leading-relaxed">Breakdowns, gap analyses, and critical reviews of security and AI literature.</p>
+            </div>
+          </div>
+          <i data-lucide="arrow-right" class="w-4 h-4 text-slate-500 group-hover:text-slate-300 group-hover:translate-x-0.5 transition shrink-0 ml-2"></i>
+        </div>
+      </a>
+
+      <a href="/blog/" class="group block bg-[#111827]/60 hover:bg-[#111827] border border-slate-800 hover:border-slate-700 rounded-xl p-4 transition no-underline">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3.5">
+            <div class="w-10 h-10 rounded-lg bg-slate-800/50 border border-slate-700/40 flex items-center justify-center text-slate-400 group-hover:text-slate-200 shrink-0 transition">
+              <i data-lucide="terminal" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <h3 class="text-base font-bold text-slate-100 m-0 mb-0.5 leading-snug group-hover:text-sky-400 transition">Technical Blog</h3>
+              <p class="text-sm text-slate-400 m-0 leading-relaxed">Practical write-ups, lab observations, systems tooling, and engineering field notes.</p>
+            </div>
+          </div>
+          <i data-lucide="arrow-right" class="w-4 h-4 text-slate-500 group-hover:text-slate-300 group-hover:translate-x-0.5 transition shrink-0 ml-2"></i>
+        </div>
+      </a>
+    </div>
+  </div>
 
 </div>
+
+<script>
+  lucide.createIcons();
+</script>
