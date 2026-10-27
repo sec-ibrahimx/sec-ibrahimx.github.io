@@ -1,3 +1,9 @@
+---
+permalink: /
+title: ""
+author_profile: false
+---
+
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -397,3 +403,133 @@
         <i data-lucide="arrow-up-right" style="width:13px;height:13px"></i>
       </a>
     </div>
+
+    <p class="ib-intro">
+      Securing systems and AI from the adversary's vantage point through empirical offensive research.
+    </p>
+
+    <div class="ib-tags" aria-label="Research interests">
+      <span class="ib-tag"><i data-lucide="shield" style="width:14px;height:14px"></i>Security Research</span>
+      <span class="ib-tag"><i data-lucide="brain-circuit" style="width:14px;height:14px"></i>AI Security</span>
+      <span class="ib-tag"><i data-lucide="network" style="width:14px;height:14px"></i>Systems Security</span>
+    </div>
+  </section>
+
+  <!-- Focus and interests -->
+  <section class="ib-section">
+    <h2 class="ib-section-heading">
+      <span class="ib-heading-icon"><i data-lucide="crosshair" style="width:18px;height:18px"></i></span>
+      Focus &amp; Interests
+    </h2>
+
+    <div class="ib-interest-list">
+      <article class="ib-interest">
+        <div class="ib-interest-icon"><i data-lucide="file-text" style="width:20px;height:20px"></i></div>
+        <div class="ib-interest-content">
+          <h3 class="ib-card-title">Security Research &amp; Paper Analysis</h3>
+          <p class="ib-card-copy">Reading, dissecting, and critically evaluating academic research to identify practical solutions.</p>
+        </div>
+        <span class="ib-label">Research</span>
+      </article>
+
+      <article class="ib-interest">
+        <div class="ib-interest-icon"><i data-lucide="brain-circuit" style="width:20px;height:20px"></i></div>
+        <div class="ib-interest-content">
+          <h3 class="ib-card-title">AI Security</h3>
+          <p class="ib-card-copy">Analyzing vulnerabilities in AI systems, threat surfaces, and defenses against targeted attacks.</p>
+        </div>
+        <span class="ib-label ib-label-ai">AI</span>
+      </article>
+
+      <article class="ib-interest">
+        <div class="ib-interest-icon"><i data-lucide="network" style="width:20px;height:20px"></i></div>
+        <div class="ib-interest-content">
+          <h3 class="ib-card-title">Systems &amp; Network Security</h3>
+          <p class="ib-card-copy">Hardening systems, analyzing network traffic, improving observability, and exploring defensive architectures.</p>
+        </div>
+        <span class="ib-label ib-label-systems">Systems</span>
+      </article>
+
+      <article class="ib-interest">
+        <div class="ib-interest-icon"><i data-lucide="code-2" style="width:20px;height:20px"></i></div>
+        <div class="ib-interest-content">
+          <h3 class="ib-card-title">Applied Technical Projects</h3>
+          <p class="ib-card-copy">Building and testing practical security implementations, tools, and reproducible technical artifacts.</p>
+        </div>
+        <span class="ib-label ib-label-projects">Projects</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- Selected work -->
+  <section class="ib-section">
+    <h2 class="ib-section-heading">
+      <span class="ib-heading-icon"><i data-lucide="layers-3" style="width:18px;height:18px"></i></span>
+      Selected Work
+    </h2>
+    <p class="ib-section-kicker">Research directions and practical work across systems, networks, and AI security.</p>
+
+    <div class="ib-work-grid">
+      <a class="ib-work-card" href="/projects/">
+        <div class="ib-work-top">
+          <span class="ib-work-icon"><i data-lucide="network" style="width:21px;height:21px"></i></span>
+          <i class="ib-arrow" data-lucide="arrow-up-right" style="width:17px;height:17px"></i>
+        </div>
+        <h3 class="ib-card-title">Systems &amp; Network Security</h3>
+        <p class="ib-card-copy">Traffic analysis, threat detection, system observability, and defensive engineering.</p>
+        <div class="ib-card-foot"><i data-lucide="folder-code" style="width:14px;height:14px"></i>Projects &amp; implementations</div>
+      </a>
+
+      <a class="ib-work-card" href="/research/">
+        <div class="ib-work-top">
+          <span class="ib-work-icon"><i data-lucide="brain-circuit" style="width:21px;height:21px"></i></span>
+          <i class="ib-arrow" data-lucide="arrow-up-right" style="width:17px;height:17px"></i>
+        </div>
+        <h3 class="ib-card-title">AI Security Research</h3>
+        <p class="ib-card-copy">Model robustness, adversarial techniques, and security evaluation of AI systems.</p>
+        <div class="ib-card-foot"><i data-lucide="book-open" style="width:14px;height:14px"></i>Research &amp; paper analysis</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Research and technical notes -->
+  <section class="ib-section">
+    <h2 class="ib-section-heading">
+      <span class="ib-heading-icon"><i data-lucide="notebook-pen" style="width:18px;height:18px"></i></span>
+      Research &amp; Technical Notes
+    </h2>
+
+    <div class="ib-notes">
+      <div class="ib-note-row">
+        <span class="ib-note-dot" aria-hidden="true"></span>
+        <p><strong>Research &amp; Papers</strong> — Critical reviews, methodology analysis, and research gaps in security and AI literature.</p>
+      </div>
+      <div class="ib-note-row">
+        <span class="ib-note-dot" aria-hidden="true"></span>
+        <p><strong>Technical Blog</strong> — Practical write-ups, lab observations, tooling, and engineering field notes.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="ib-footer">
+    <span>© <span id="ib-year">2026</span> Ibrahim · Security Research</span>
+    <a href="https://github.com/sec-ibrahimx" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+  </footer>
+</div>
+
+<script>
+  (function () {
+    function initIbrahimIcons() {
+      if (window.lucide && typeof window.lucide.createIcons === "function") {
+        window.lucide.createIcons();
+      }
+      var year = document.getElementById("ib-year");
+      if (year) year.textContent = new Date().getFullYear();
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initIbrahimIcons);
+    } else {
+      initIbrahimIcons();
+    }
+  })();
+</script>
