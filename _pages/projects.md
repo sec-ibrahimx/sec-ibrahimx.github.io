@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: nabla-page
 permalink: /projects/
-title: ""
+title: "Projects"
+subtitle: "Hands-on security implementations and experiments."
+icon: code
 author_profile: false
 ---
 
