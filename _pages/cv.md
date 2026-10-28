@@ -1,6 +1,9 @@
 ---
+layout: nabla-page
 permalink: /cv/
-title: ""
+title: "CV"
+subtitle: "Experience, education, and certifications."
+icon: cv
 author_profile: false
 ---
 
