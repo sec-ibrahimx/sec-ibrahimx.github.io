@@ -46,12 +46,12 @@ author_profile: false
           <h3 class="text-base font-bold text-slate-100 m-0 leading-snug">Systems & Network Infrastructure Engineering</h3>
           <span class="text-xs bg-slate-800/80 text-slate-400 border border-slate-700/50 px-2 py-0.5 rounded shrink-0">6+ Years</span>
         </div>
-        <ul class="list-disc list-inside text-sm text-slate-400 space-y-1.5 leading-relaxed mt-2">
-          <li>Practical engineering across enterprise networks, server environments, and production systems.</li>
-          <li>Hands-on routing, switching, infrastructure isolation, VLAN segmentation, and administration.</li>
-          <li>Network traffic analysis, perimeter defense enforcement, and enterprise attack surface reduction.</li>
-          <li>Transitioned core operational infrastructure foundations into applied security research.</li>
-        </ul>
+<ul class="text-sm text-slate-400 space-y-1.5 leading-relaxed m-0 p-0 list-none mt-2">
+  <li><strong class="text-slate-300 font-medium">Engineering:</strong> Practical engineering across enterprise networks, server environments, and production systems.</li>
+  <li><strong class="text-slate-300 font-medium">Infrastructure:</strong> Hands-on routing, switching, infrastructure isolation, VLAN segmentation, and administration.</li>
+  <li><strong class="text-slate-300 font-medium">Defense:</strong> Network traffic analysis, perimeter defense enforcement, and enterprise attack surface reduction.</li>
+  <li><strong class="text-slate-300 font-medium">Transition:</strong> Transitioned core operational infrastructure foundations into applied security research.</li>
+</ul>
       </div>
     </div>
   </div>
