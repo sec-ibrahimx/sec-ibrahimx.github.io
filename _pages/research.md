@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: nabla-page
 permalink: /research/
-title: ""
+title: "Research & Papers"
+subtitle: "Breakdowns, gap analyses, and critical reviews of security and AI literature."
+icon: doc
 author_profile: false
 ---
 
