@@ -1,1 +1,105 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="description" content="Systems & AI Security Researcher - Academic Portfolio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 280 280%27%3E%3Crect width=%27280%27 height=%27280%27 rx=%2772%27 fill=%27%230E1022%27/%3E%3Cpath transform=%27translate(40 40) scale(.71) translate(-220 -220)%27 fill=%27%237C8CFF%27 fill-rule=%27evenodd%27 d=%27M232 231H488Q495 231 491 238L374 484Q371 490 362 490H358Q352 490 349 484L229 238Q225 231 232 231ZM281 262H461L371 448Z%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="{{ '/assets/css/nabla.css' | relative_url }}">
+</head>
+<body>
+{% include nabla-icons.html %}
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}"><b><svg class="i"><use href="#nabla"/></svg></b>Ibrahim Security</a>
+    <a class="l" href="{{ '/' | relative_url }}" aria-current="page">About</a>
+    <a class="l" href="{{ '/research/' | relative_url }}">Research & Papers</a>
+    <a class="l" href="{{ '/projects/' | relative_url }}">Projects</a>
+    <a class="l" href="{{ '/blog/' | relative_url }}">Blog</a>
+    <a class="l" href="{{ '/cv/' | relative_url }}">CV</a>
+  </div>
+</nav>
+
+<main class="wrap">
+  <header class="hero">
+    <div>
+      <h1><svg class="i"><use href="#nabla"/></svg>Ibrahim</h1>
+      <p class="role">Systems & AI Security Researcher</p>
+      <p class="bio">Securing systems and AI from the adversary's vantage point through empirical offensive research. I look at where security assumptions fail, then turn what I find into stronger defenses.</p>
+      <div class="chips">
+        <span class="chip"><svg class="i"><use href="#shield"/></svg>Security research</span>
+        <span class="chip"><svg class="i"><use href="#cpu"/></svg>AI security</span>
+        <span class="chip"><svg class="i"><use href="#net"/></svg>Systems security</span>
+      </div>
+    </div>
+
+    <div class="map" role="img" aria-label="Four areas of work orbiting the nabla symbol">
+      <svg viewBox="0 0 400 400">
+        <circle class="ring" cx="200" cy="200" r="180"/>
+        <circle class="ring" cx="200" cy="200" r="125"/>
+        <circle class="ring" cx="200" cy="200" r="70"/>
+        <circle class="ring" cx="200" cy="200" r="152" stroke-dasharray="2 9"/>
+        <svg x="154" y="154" width="92" height="92" style="color:var(--signal)"><use href="#nabla" width="92" height="92"/></svg>
+        <g class="orbit">
+        <g class="node" style="transform-origin:60px 90px"><circle cx="60" cy="90" r="26"/><svg x="48" y="78" width="24" height="24" viewBox="0 0 24 24" class="ic" stroke="var(--signal)"><use href="#cpu"/></svg><text x="60" y="136">AI models</text></g>
+        <g class="node" style="transform-origin:338px 110px"><circle cx="338" cy="110" r="26"/><svg x="326" y="98" width="24" height="24" viewBox="0 0 24 24" class="ic" stroke="var(--mint)"><use href="#net"/></svg><text x="338" y="156">Networks</text></g>
+        <g class="node" style="transform-origin:320px 310px"><circle cx="320" cy="310" r="26"/><svg x="308" y="298" width="24" height="24" viewBox="0 0 24 24" class="ic" stroke="var(--rose)"><use href="#doc"/></svg><text x="320" y="356">Papers</text></g>
+        <g class="node" style="transform-origin:90px 320px"><circle cx="90" cy="320" r="26"/><svg x="78" y="308" width="24" height="24" viewBox="0 0 24 24" class="ic" stroke="var(--amber)"><use href="#code"/></svg><text x="90" y="366">Prototypes</text></g>
+        </g>
+      </svg>
+    </div>
+  </header>
+
+  <section>
+    <div class="sh"><svg class="i"><use href="#target"/></svg><h2>Focus & interests</h2></div>
+    <div class="grid">
+      <article class="card" style="--c:var(--rose)">
+        <div class="ico"><svg class="i"><use href="#doc"/></svg></div>
+        <div><h3>Security research & paper analysis</h3><p>Reading, dissecting, and critically evaluating academic research to find practical solutions.</p><span class="tag">Research</span></div>
+      </article>
+      <article class="card" style="--c:var(--signal)">
+        <div class="ico"><svg class="i"><use href="#cpu"/></svg></div>
+        <div><h3>AI security</h3><p>Analyzing vulnerabilities in AI systems, threat surfaces, and defenses against targeted attacks.</p><span class="tag">AI</span></div>
+      </article>
+      <article class="card" style="--c:var(--mint)">
+        <div class="ico"><svg class="i"><use href="#net"/></svg></div>
+        <div><h3>Systems & network security</h3><p>Hardening systems, network traffic analysis, observability, and defensive architectures.</p><span class="tag">Systems</span></div>
+      </article>
+      <article class="card" style="--c:var(--amber)">
+        <div class="ico"><svg class="i"><use href="#code"/></svg></div>
+        <div><h3>Applied technical projects</h3><p>Building and testing practical security implementations and hands-on artifacts.</p><span class="tag">Projects</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="sh"><svg class="i"><use href="#compass"/></svg><h2>Explore the portfolio</h2></div>
+    <div class="grid">
+      <a class="card go" href="{{ '/research/' | relative_url }}">
+        <div class="ico"><svg class="i"><use href="#doc"/></svg></div>
+        <div><h3>Research & Papers</h3><p>Breakdowns, gap analyses, and critical reviews of security and AI literature.</p></div>
+        <span class="arr"><svg class="i"><use href="#arrow"/></svg></span>
+      </a>
+      <a class="card go" href="{{ '/blog/' | relative_url }}">
+        <div class="ico"><svg class="i"><use href="#term"/></svg></div>
+        <div><h3>Technical Blog</h3><p>Practical write-ups, lab observations, systems tooling, and engineering field notes.</p></div>
+        <span class="arr"><svg class="i"><use href="#arrow"/></svg></span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><span style="display:inline-flex;align-items:center;gap:8px"><svg class="i" style="color:var(--signal)"><use href="#nabla"/></svg>Independent security research and practical experimentation.</span><span>© 2026 Ibrahim. All rights reserved.</span></div>
+</footer>
+<script>
+document.querySelectorAll('.card').forEach(c=>c.addEventListener('pointermove',e=>{const b=c.getBoundingClientRect();c.style.setProperty('--mx',e.clientX-b.left+'px');c.style.setProperty('--my',e.clientY-b.top+'px')}));
+</script>
+</body>
+</html>
