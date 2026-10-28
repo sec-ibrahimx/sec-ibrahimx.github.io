@@ -114,3 +114,5 @@ main.wrap{flex:1;padding-bottom:56px}
 .prose table{width:100%;border-collapse:collapse;display:block;overflow-x:auto}
 .prose th,.prose td{border:1px solid var(--line);padding:8px 12px;text-align:left}
 .prose th{background:var(--panel2)}
+.prose h2,.prose h3{display:flex;align-items:center;gap:10px}
+.prose h2 svg,.prose h3 svg{width:1.3em;height:1.3em;flex:none;color:var(--amber);fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
