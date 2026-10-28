@@ -9,6 +9,8 @@
   url: /portfolio/
   match: /portfolio
 - title: "Blog"
+  url: /blog/
+  match: /blog
   url: /year-archive/
   match: /year-archive
 - title: "CV"
