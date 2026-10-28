@@ -1,6 +1,7 @@
 ---
+layout: nabla
 permalink: /
-title: ""
+title: "Ibrahim Security"
 author_profile: false
 ---
 
