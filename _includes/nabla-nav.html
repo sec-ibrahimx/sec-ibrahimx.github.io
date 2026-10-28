@@ -1,0 +1,7 @@
+<nav>
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}"><b><svg class="i"><use href="#nabla"/></svg></b>Ibrahim Security</a>
+    {% for item in site.data.nabla_nav %}{% assign m = item.match | default: item.url %}{% assign on = false %}{% if item.url == '/' %}{% if page.url == '/' %}{% assign on = true %}{% endif %}{% elsif page.url contains m %}{% assign on = true %}{% endif %}<a class="l" href="{{ item.url | relative_url }}"{% if on %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {% endfor %}
+  </div>
+</nav>

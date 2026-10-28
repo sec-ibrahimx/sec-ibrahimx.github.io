@@ -1,0 +1,14 @@
+{% assign nb_items = include.items | sort: 'date' | reverse %}
+<div class="list">
+{% for p in nb_items %}
+  <a class="card go" style="--c:var(--{{ include.color | default: 'signal' }})" href="{{ p.url | relative_url }}">
+    <div class="ico"><svg class="i"><use href="#{{ include.icon | default: 'doc' }}"/></svg></div>
+    <div>
+      <h3>{{ p.title }}</h3>
+      {% if p.excerpt %}<p>{{ p.excerpt | strip_html | strip_newlines | truncatewords: 28 }}</p>{% endif %}
+      <span class="meta">{% if p.date %}{{ p.date | date: "%b %-d, %Y" }}{% endif %}{% if p.venue %} · {{ p.venue }}{% endif %}</span>
+    </div>
+    <span class="arr"><svg class="i"><use href="#arrow"/></svg></span>
+  </a>
+{% endfor %}
+</div>

@@ -1,0 +1,6 @@
+<footer>
+  <div class="wrap"><span style="display:inline-flex;align-items:center;gap:8px"><svg class="i" style="color:var(--signal)"><use href="#nabla"/></svg>Independent security research and practical experimentation.</span><span>© {{ site.time | date: "%Y" }} Ibrahim. All rights reserved.</span></div>
+</footer>
+<script>
+document.querySelectorAll('.card').forEach(c=>c.addEventListener('pointermove',e=>{const b=c.getBoundingClientRect();c.style.setProperty('--mx',e.clientX-b.left+'px');c.style.setProperty('--my',e.clientY-b.top+'px')}));
+</script>
