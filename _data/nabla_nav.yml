@@ -1,0 +1,15 @@
+# Edit the URLs here ONCE; the menu on every page reads from this file.
+# "match": part of the URL that keeps the tab highlighted on sub-pages (optional).
+- title: "About"
+  url: /
+- title: "Research & Papers"
+  url: /publications/
+  match: /publication
+- title: "Projects"
+  url: /portfolio/
+  match: /portfolio
+- title: "Blog"
+  url: /year-archive/
+  match: /year-archive
+- title: "CV"
+  url: /cv/
